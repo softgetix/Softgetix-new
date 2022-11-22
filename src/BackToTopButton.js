@@ -6,7 +6,7 @@ function BackToTopButton () {
 
     useEffect(() => {
         window.addEventListener("scroll" , () => {
-            if(window.scrollY > 100){
+            if(window.scrollY > 200){
             setBackToTopButton(true)
         }else{
             setBackToTopButton(false)
@@ -23,7 +23,7 @@ function BackToTopButton () {
     }
 
     return <div className="App">
-        {BackToTopButton && (
+        {backToTopButton && (
             <button style={{
                 position: "fixed",
                 bottom: "50px",

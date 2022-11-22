@@ -1,3 +1,4 @@
+import Template from '../common/Template';
 import React, { useState } from 'react'
 
 function ContactTest() {
@@ -49,6 +50,8 @@ function ContactTest() {
 
   return ( 
     <>
+    <Template>
+      
       <section className="contact_us" id="conthub">
           <div className="container">
               <div className="col-lg-12">
@@ -133,6 +136,7 @@ function ContactTest() {
               </div>
             </div>
         </section>
+        </Template>
     </>
   )
 }

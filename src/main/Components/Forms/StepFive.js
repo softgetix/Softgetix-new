@@ -1,4 +1,4 @@
-
+/* eslint-disable react/prop-types */
 import React, { useState } from "react";
 import { Form, Card, Button } from "react-bootstrap";
 import validator from "validator";

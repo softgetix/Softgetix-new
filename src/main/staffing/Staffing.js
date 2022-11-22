@@ -512,104 +512,104 @@ function Staffing() {
             </div>
         </section> */}
 
-        <section class="custom_software_development_section2" id='staff_benefits'>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 class="font-weight-bold text-center staff-heading">Benefits of <b class="orange-text">IT Staff Augmentation</b></h1>
+        <section className="custom_software_development_section2" id='staff_benefits'>
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-12">
+                        <h1 className="font-weight-bold text-center staff-heading">Benefits of <b className="orange-text">IT Staff Augmentation</b></h1>
                     </div>
-                    {/* <div class="col-md-8 m-auto">
-                        <div class="staff_steps_details text-center">
+                    {/* <div className="col-md-8 m-auto">
+                        <div className="staff_steps_details text-center">
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                         </div>
                     </div> */}
-                    <div class="col-md-12">
-                        <div class="row text-center">
-                        <div class="col-lg-4 col-md-6 col-xs-12">
-                            <div class="csd_project_values">
-                                    {/* <div class="features_img">
+                    <div className="col-md-12">
+                        <div className="row text-center">
+                        <div className="col-lg-4 col-md-6 col-xs-12">
+                            <div className="csd_project_values">
+                                    {/* <div className="features_img">
                                     <img src="icons/android.png" width="15%" />
                                     </div> */}
-                                    <div class="features_title">
+                                    <div className="features_title">
                                     <h3>Easily Scale-up and scale- down</h3>
-                                    <p class="mt-3">With staff augmentation, you can add resources to your account for a specific duration to speed up your workflow and then scale down as per the demand.</p>
+                                    <p className="mt-3">With staff augmentation, you can add resources to your account for a specific duration to speed up your workflow and then scale down as per the demand.</p>
                                     </div>
                             </div>      
                         </div>
-                        <div class="col-lg-4 col-md-6 col-xs-12">
-                            <div class="csd_project_values">
-                                    {/* <div class="features_img">
+                        <div className="col-lg-4 col-md-6 col-xs-12">
+                            <div className="csd_project_values">
+                                    {/* <div className="features_img">
                                     <img src="icons/android.png" width="15%" />
                                     </div> */}
-                                    <div class="features_title">
+                                    <div className="features_title">
                                     <h3>Cost Effective</h3>
-                                    <p class="mt-3">Staff augmentation helps companies save money by hiring temporary employees instead of full-time staff. They do not have to invest in recruitment, employee benefits, tax and more. Training new employees take much less time compared to training existing ones.</p>
+                                    <p className="mt-3">Staff augmentation helps companies save money by hiring temporary employees instead of full-time staff. They do not have to invest in recruitment, employee benefits, tax and more. Training new employees take much less time compared to training existing ones.</p>
                                     </div>
                             </div>      
                         </div>
-                        <div class="col-lg-4 col-md-6 col-xs-12">
-                            <div class="csd_project_values">
-                                    {/* <div class="features_img">
+                        <div className="col-lg-4 col-md-6 col-xs-12">
+                            <div className="csd_project_values">
+                                    {/* <div className="features_img">
                                     <img src="icons/android.png" width="15%" />
                                     </div> */}
-                                    <div class="features_title">
+                                    <div className="features_title">
                                     <h3>No Recruitment Hassles</h3>
-                                    <p class="mt-3">Our IT Augmentation Services Save Your Company The Hassle Of Searching For And Recruiting Vetted Development Talent. We Take Over The Screening Process And Send You Approved CVs.</p>
+                                    <p className="mt-3">Our IT Augmentation Services Save Your Company The Hassle Of Searching For And Recruiting Vetted Development Talent. We Take Over The Screening Process And Send You Approved CVs.</p>
                                     </div>
                             </div>      
                         </div>
-                        <div class="col-lg-4 col-md-6 col-xs-12">
-                            <div class="csd_project_values">
-                                    {/* <div class="features_img">
+                        <div className="col-lg-4 col-md-6 col-xs-12">
+                            <div className="csd_project_values">
+                                    {/* <div className="features_img">
                                     <img src="icons/android.png" width="15%" />
                                     </div> */}
-                                    <div class="features_title">
+                                    <div className="features_title">
                                     <h3>Lower operational costs</h3>
-                                    <p class="mt-3">Reduce your company's spending by eliminating the costs associated with office space, equipment, taxes, and overhead. Pay for what drives your company's most valuable results.</p>
+                                    <p className="mt-3">Reduce your company's spending by eliminating the costs associated with office space, equipment, taxes, and overhead. Pay for what drives your company's most valuable results.</p>
                                     </div>
                             </div>      
                         </div>
-                        <div class="col-lg-4 col-md-6 col-xs-12">
-                            <div class="csd_project_values">
-                                    {/* <div class="features_img">
+                        <div className="col-lg-4 col-md-6 col-xs-12">
+                            <div className="csd_project_values">
+                                    {/* <div className="features_img">
                                     <img src="icons/android.png" width="15%" />
                                     </div> */}
-                                    <div class="features_title">
+                                    <div className="features_title">
                                     <h3>Legal Headache Gone</h3>
-                                    <p class="mt-3">Within our IT augmentation services, we remain the original employers of your hires. We take care of all legal responsibilities and documentation.</p>
+                                    <p className="mt-3">Within our IT augmentation services, we remain the original employers of your hires. We take care of all legal responsibilities and documentation.</p>
                                     </div>
                             </div>      
                         </div>
-                        <div class="col-lg-4 col-md-6 col-xs-12">
-                            <div class="csd_project_values">
-                                    {/* <div class="features_img">
+                        <div className="col-lg-4 col-md-6 col-xs-12">
+                            <div className="csd_project_values">
+                                    {/* <div className="features_img">
                                     <img src="icons/android.png" width="15%" />
                                     </div> */}
-                                    <div class="features_title">
+                                    <div className="features_title">
                                     <h3>Access to Vetted and Certified Talent</h3>
-                                    <p class="mt-3">Devox Software offers you immediate access to a vast talent pool at affordable costs. Amplify your team with certified software specialists.</p>
+                                    <p className="mt-3">Devox Software offers you immediate access to a vast talent pool at affordable costs. Amplify your team with certified software specialists.</p>
                                     </div>
                             </div>      
                         </div>
-                        {/* <div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="csd_project_values">
-                                    <div class="features_img">
+                        {/* <div className="col-lg-3 col-md-6 col-xs-12">
+                            <div className="csd_project_values">
+                                    <div className="features_img">
                                     <img src="icons/android.png" width="15%" />
                                     </div>
-                                    <div class="features_title">
+                                    <div className="features_title">
                                     <h3>What is Lorem Ipsum</h3>
-                                    <p class="mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <p className="mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                     </div>
                             </div>      
                         </div> */}
-                        {/* <div class="col-lg-3 col-md-6 col-xs-12">
-                            <div class="csd_project_values">
-                                    <div class="features_img">
+                        {/* <div className="col-lg-3 col-md-6 col-xs-12">
+                            <div className="csd_project_values">
+                                    <div className="features_img">
                                     <img src="icons/android.png" width="15%" />
                                     </div>
-                                    <div class="features_title">
+                                    <div className="features_title">
                                     <h3>What is Lorem Ipsum</h3>
-                                    <p class="mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <p className="mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                                     </div>
                             </div>      
                         </div> */}

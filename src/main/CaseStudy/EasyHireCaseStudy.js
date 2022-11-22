@@ -141,7 +141,7 @@ function EasyHireCaseStudy() {
                             </p>
                           </li>
                           <li>
-                              <p className="paragraph">To portray the client's expectations in the right way we created a PSD mockup. </p>
+                              <p className="paragraph">To portray the client`&apos;`s expectations in the right way we created a PSD mockup. </p>
                           </li>
                           <li>
                               <p className="paragraph">	We designed custom architecture and database schema. </p>

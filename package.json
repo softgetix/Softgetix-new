@@ -15,6 +15,7 @@
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-bootstrap": "^2.6.0",
     "react-calendly": "^4.1.0",
+    "react-content-loader": "^6.2.0",
     "react-dom": "^18.2.0",
     "react-owl-carousel": "^2.3.3",
     "react-responsive-carousel": "^3.2.23",
@@ -29,12 +30,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
