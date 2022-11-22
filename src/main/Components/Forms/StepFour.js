@@ -1,11 +1,9 @@
-/* eslint-disable react/prop-types */
 import React, { useEffect, useState }  from "react";
 import { Form, Card, Button } from "react-bootstrap";
 
 // creating functional component ans getting props from app.js and destucturing them
 const StepFour = ({ nextStep, handleFormData,prevStep, values }) => {
   //creating error state for validation
-  // const [error, setError] = useState(false);
  
   const [resource_budget, setResourceBudget] = useState("");
  

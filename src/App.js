@@ -8,7 +8,6 @@ const Career = React.lazy(() => import('./main/career/Index'));
 const JobDetails = React.lazy(() => import('./main/career/JobDetails'));
 const AboutUs = React.lazy(() => import('./main/about/About'));
 const Contact = React.lazy(() => import('./main/contact/Contact'));
-const ContactTest = React.lazy(() => import('./main/home/ContactTest'));
 const Services = React.lazy(() => import('./main/services/Services'));
 const GetFreeQuote = React.lazy(() => import('./main/common_components/GetFreeQuote'));
 const Staffing = React.lazy(() => import('./main/staffing/Staffing'));
@@ -79,7 +78,6 @@ function App() {
           <Route path='/jobdetails/:id' exact element={<JobDetails />} />
           <Route path='/about' exact element={<AboutUs />} />
           <Route path='/contact' exact element={<Contact />} />
-          <Route path='/ContactTest' exact element={<ContactTest />} />
           <Route path='/services' exact element={<Services />} />
           <Route path='/custom_software_development' exact element={<CustomSoftwareDevelopment />} />
           <Route path='/dedicated_team' exact element={<DedicatedTeam />} />
