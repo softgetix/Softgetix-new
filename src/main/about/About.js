@@ -2,7 +2,7 @@ import React from 'react';
 import Template from '../common/Template';
 import ContactTest from '../home/ContactTest';
 
-import aboutBannerImg from '../../images/about-imgs1.webp'
+import aboutBannerImg from '../../images/about-imgs1.87a10132d9e80684b34c.webp'
 
 import flight from '../../icons/flight.png'
 import rating from '../../icons/rating.png'
@@ -21,6 +21,7 @@ import Pfizer from '../../company_logos/Pfizer-Venture.webp'
 import cisco from '../../company_logos/Cisco-Investments.webp'
 import johnson from '../../company_logos/johnson-innovation.webp'
 import intel from '../../company_logos/Intel-Capital.webp'
+import './about.css'
 
 
 function About() {
@@ -30,10 +31,7 @@ function About() {
         <section id="about_us">
           <div className="container">
             <div className="row">
-              <div className="col-md-12 text-right">
-                <img src={aboutBannerImg} width="100%" alt="about-imgs"/>
-              </div>
-              <div className="text-center pb-2">
+            <div className="text-center pb-2">
                 <div className="col-md-12">
                   <h1 className="font-weight-bold text-center staff-heading">Excellent<b className="orange-text"> Products</b> are built by Excellent <b className="orange-text">Teams</b></h1>
                 </div>
@@ -43,6 +41,10 @@ function About() {
                   </div>
                 </div> */}
               </div>
+              <div className="col-md-12 text-right banner">
+                <img  src={aboutBannerImg} width="100%" alt="about-imgs"/>
+              </div>
+        
             </div>
           </div>
         </section>   
@@ -210,7 +212,7 @@ function About() {
         <div className="container" id='about_us_counting'>
           <div className="row">
               <div className="col-md-10 m-auto">
-                <h1 className="font-weight-bold text-center staff-heading pt-5">Empowering Ideas with <b className="orange-text">Technology</b></h1>
+                <h2 className="font-weight-bold text-center staff-heading pt-5">Empowering Ideas with <b className="orange-text">Technology</b></h2>
               </div>
               <div className="col-md-8 m-auto">
                 <div className="staff_row_details text-center mt-2">

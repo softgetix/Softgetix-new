@@ -37,7 +37,7 @@ import mysql from '../../icons/mysql.png'
 import mongoDB from '../../icons/mongoDB.png'
 import postgreSql from '../../icons/postgreSQL.png'
 import graphicDesigner from '../../icons/graphicDesigner.png'
-
+import './staffing.css';
 function Staffing() {
 
     const resourceSection = React.useRef();
@@ -132,7 +132,7 @@ function Staffing() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                    <h1 className="font-weight-bold text-center staff-heading">Our IT Staff <b className="orange-text">Augmentation </b>Process</h1>
+                    <h2 className="font-weight-bold text-center staff-heading">Our IT Staff <b className="orange-text">Augmentation </b>Process</h2>
                     </div>
                     <div className="col-md-8 m-auto">
                         <div className="staff_row_details text-center">
@@ -155,7 +155,7 @@ function Staffing() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                    <h1 className="font-weight-bold text-center staff-heading">The <b className="orange-text">Technology Stack</b> We Work With </h1>
+                    <h2 className="font-weight-bold text-center staff-heading">The <b className="orange-text">Technology Stack</b> We Work With </h2>
                     </div>
                     <div className="col-md-8 m-auto">
                         <div className="sstaff_row_details text-center">
@@ -173,7 +173,7 @@ function Staffing() {
                                     </div>   
                                     </div>
                                     <div className="technology-box-heading">
-                                    <h2 className="text-center">PHP <br />Developer</h2>
+                                    <h3 className="text-center">PHP <br />Developer</h3>
                                     </div>
                                     <div className="banner_buttons text-center">
                                     <Link to="/hiring/PHP" className="btn free_Quote_btn btn-lg mt-3"><b>Hire Now</b></Link>
@@ -190,7 +190,7 @@ function Staffing() {
                                     </div>   
                                     </div>
                                     <div className="technology-box-heading">
-                                    <h2 className="text-center">Laravel Developer</h2>
+                                    <h3 className="text-center">Laravel Developer</h3>
                                     </div>
                                     <div className="banner_buttons text-center">
                                     <Link to="/hiring/Laravel" className="btn free_Quote_btn btn-lg mt-3"><b>Hire Now</b></Link>
@@ -207,7 +207,7 @@ function Staffing() {
                                     </div>   
                                     </div>
                                     <div className="technology-box-heading">
-                                    <h2 className="text-center">Codeigniter Developer</h2>
+                                    <h3 className="text-center">Codeigniter Developer</h3>
                                     </div>
                                     <div className="banner_buttons text-center">
                                     <Link to="/hiring/Codeigniter" className="btn free_Quote_btn btn-lg mt-3"><b>Hire Now</b></Link>
@@ -224,7 +224,7 @@ function Staffing() {
                                     </div>   
                                     </div>
                                     <div className="technology-box-heading">
-                                    <h2 className="text-center">Vue.js Developer</h2>
+                                    <h3 className="text-center">Vue.js Developer</h3>
                                     </div>
                                     <div className="banner_buttons text-center">
                                     <Link to="/hiring/VueJs" className="btn free_Quote_btn btn-lg mt-3"><b>Hire Now</b></Link>
@@ -241,7 +241,7 @@ function Staffing() {
                                     </div>   
                                     </div>
                                     <div className="technology-box-heading">
-                                    <h2 className="text-center">WordPress Developer</h2>
+                                    <h3 className="text-center">WordPress Developer</h3>
                                     </div>
                                     <div className="banner_buttons text-center">
                                     <Link to="/hiring/WordPress" className="btn free_Quote_btn btn-lg mt-3"><b>Hire Now</b></Link>
@@ -258,7 +258,7 @@ function Staffing() {
                                     </div>   
                                     </div>
                                     <div className="technology-box-heading">
-                                    <h2 className="text-center">React Developer</h2>
+                                    <h3 className="text-center">React Developer</h3>
                                     </div>
                                     <div className="banner_buttons text-center">
                                     <Link to="/hiring/React" className="btn free_Quote_btn btn-lg mt-3"><b>Hire Now</b></Link>
@@ -275,7 +275,7 @@ function Staffing() {
                                     </div>   
                                     </div>
                                     <div className="technology-box-heading">
-                                    <h2 className="text-center">React Native Developer</h2>
+                                    <h3 className="text-center">React Native Developer</h3>
                                     </div>
                                     <div className="banner_buttons text-center">
                                     <Link to="/hiring/ReactNative" className="btn free_Quote_btn btn-lg mt-3"><b>Hire Now</b></Link>
@@ -292,7 +292,7 @@ function Staffing() {
                                     </div>   
                                     </div>
                                     <div className="technology-box-heading">
-                                    <h2 className="text-center">Manual <br /> QA </h2>
+                                    <h3 className="text-center">Manual <br /> QA </h3>
                                     </div>
                                     <div className="banner_buttons text-center">
                                     <Link to="/hiring/ManualQA" className="btn free_Quote_btn btn-lg mt-3"><b>Hire Now</b></Link>
@@ -309,7 +309,7 @@ function Staffing() {
                                     </div>   
                                     </div>
                                     <div className="technology-box-heading">
-                                    <h2 className="text-center"> HTML5 </h2>
+                                    <h3 className="text-center"> HTML5 </h3>
                                     </div>
                                     <div className="banner_buttons text-center">
                                     <Link to="/hiring/HTML5" className="btn free_Quote_btn btn-lg mt-3"><b>Hire Now</b></Link>
@@ -326,7 +326,7 @@ function Staffing() {
                                     </div>   
                                     </div>
                                     <div className="technology-box-heading">
-                                    <h2 className="text-center"> Node.js Developer </h2>
+                                    <h3 className="text-center"> Node.js Developer </h3>
                                     </div>
                                     <div className="banner_buttons text-center">
                                     <Link to="/hiring/NodeJs" className="btn free_Quote_btn btn-lg mt-3"><b>Hire Now</b></Link>
@@ -343,7 +343,7 @@ function Staffing() {
                                     </div>   
                                     </div>
                                     <div className="technology-box-heading">
-                                    <h2 className="text-center"> Bootstrap </h2>
+                                    <h3 className="text-center"> Bootstrap </h3>
                                     </div>
                                     <div className="banner_buttons text-center">
                                     <Link to="/hiring/Bootstrap" className="btn free_Quote_btn btn-lg mt-3"><b>Hire Now</b></Link>
@@ -360,7 +360,7 @@ function Staffing() {
                                     </div>   
                                     </div>
                                     <div className="technology-box-heading">
-                                    <h2 className="text-center"> Tailwind <br /> CSS </h2>
+                                    <h3 className="text-center"> Tailwind <br /> CSS </h3>
                                     </div>
                                     <div className="banner_buttons text-center">
                                     <Link to="/hiring/Tailwind" className="btn free_Quote_btn btn-lg mt-3"><b>Hire Now</b></Link>
@@ -377,7 +377,7 @@ function Staffing() {
                                     </div>   
                                     </div>
                                     <div className="technology-box-heading">
-                                    <h2 className="text-center"> MySQL Developer </h2>
+                                    <h3 className="text-center"> MySQL Developer </h3>
                                     </div>
                                     <div className="banner_buttons text-center">
                                     <Link to="/hiring/MySQL" className="btn free_Quote_btn btn-lg mt-3"><b>Hire Now</b></Link>
@@ -394,7 +394,7 @@ function Staffing() {
                                     </div>   
                                     </div>
                                     <div className="technology-box-heading">
-                                    <h2 className="text-center"> MongoDB Developer </h2>
+                                    <h3 className="text-center"> MongoDB Developer </h3>
                                     </div>
                                     <div className="banner_buttons text-center">
                                     <Link to="/hiring/MongoDB" className="btn free_Quote_btn btn-lg mt-3"><b>Hire Now</b></Link>
@@ -411,7 +411,7 @@ function Staffing() {
                                     </div>   
                                     </div>
                                     <div className="technology-box-heading">
-                                    <h2 className="text-center"> PostgreSQL Developer </h2>
+                                    <h3 className="text-center"> PostgreSQL Developer </h3>
                                     </div>
                                     <div className="banner_buttons text-center">
                                     <Link to="/hiring/PostgreSQL" className="btn free_Quote_btn btn-lg mt-3"><b>Hire Now</b></Link>
@@ -428,7 +428,7 @@ function Staffing() {
                                     </div>   
                                     </div>
                                     <div className="technology-box-heading">
-                                    <h2 className="text-center"> Graphic Designer </h2>
+                                    <h3 className="text-center"> Graphic Designer </h3>
                                     </div>
                                     <div className="banner_buttons text-center">
                                     <Link to="/hiring/GraphicDesigner" className="btn free_Quote_btn btn-lg mt-3"><b>Hire Now</b></Link>
@@ -516,7 +516,7 @@ function Staffing() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                        <h1 className="font-weight-bold text-center staff-heading">Benefits of <b className="orange-text">IT Staff Augmentation</b></h1>
+                        <h2 className="font-weight-bold text-center staff-heading">Benefits of <b className="orange-text">IT Staff Augmentation</b></h2>
                     </div>
                     {/* <div className="col-md-8 m-auto">
                         <div className="staff_steps_details text-center">

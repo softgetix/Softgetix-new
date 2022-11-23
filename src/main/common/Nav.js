@@ -50,7 +50,7 @@ function Nav() {
                            
                            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                               {/* <NavLink activeclassname="active" className="dropdown-item" to="/custom_software_development">Custom Software Development</NavLink> */}
-                              <NavLink activeclassname="active"  className="dropdown-item" to="/dedicated_team">Dedicated Development Team</NavLink>
+                              <NavLink activeclassname="active"  className="dropdown-item" to="/dedicated-team">Dedicated Development Team</NavLink>
                               <NavLink activeclassname="active"  className="dropdown-item" to="/ITStaffAugmentation">IT Staff Augmentation</NavLink>
                               {/* <NavLink activeclassname="active"  className="dropdown-item" to="/ITConsultantAdvisoryService">IT Consulting and Digital Advisory</NavLink> */}
                               <NavLink activeclassname="active"  className="dropdown-item" to="/BackendDevelopmentServices">Back End Development Services</NavLink>

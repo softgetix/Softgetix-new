@@ -80,7 +80,7 @@ function App() {
           <Route path='/contact' exact element={<Contact />} />
           <Route path='/services' exact element={<Services />} />
           <Route path='/custom_software_development' exact element={<CustomSoftwareDevelopment />} />
-          <Route path='/dedicated_team' exact element={<DedicatedTeam />} />
+          <Route path='/dedicated-team' exact element={<DedicatedTeam />} />
           <Route path='/ITConsultantAdvisoryService' exact element={<ITConsultantAdvisoryServices />} />
           <Route path='/ITStaffAugmentation' exact element={<ITStaffAugmentation />} />
           <Route path='/BackendDevelopmentServices' exact element={<BackendDevelopmentService />} />

@@ -9,7 +9,7 @@ function PricingPlan() {
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="font-weight-bold text-center staff-heading">Build Your Own  <b class="orange-text">Custom Team</b></h1>
+                        <h2 class="font-weight-bold text-center staff-heading">Build Your Own  <b class="orange-text">Custom Team</b></h2>
                     </div>
                     <div class="col-md-8 m-auto">
                         <div class="staff_row_details text-center">

@@ -3,6 +3,7 @@ import Template from '../common/Template';
 import ContactTest from '../home/ContactTest';
 import CaseStudy from '../home/CaseStudy';
 import {Link} from "react-router-dom";
+import './css/Itstaff.css';
 
 function ITStaffAugmentation() {
   return (
