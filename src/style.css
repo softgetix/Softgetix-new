@@ -2325,7 +2325,7 @@ h1.opportunities-counting-title {
 #index_about_sg .counting-div {
   margin-top: 85px;
 }
-#index_about_sg .staff_steps_details {
+#index_about_sg .staff_steps_details p ,#index_about_sg .staff_steps_details b  {
   text-align: justify;
 }
 @media only screen and (max-width: 768px) {
