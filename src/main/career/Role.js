@@ -28,7 +28,7 @@ function Role() {
         <div className="row">
             <div className="text-center pb-2 m-auto">
               <div className="col-md-12">
-                <h1 className="font-weight-bold text-center staff-heading">Current <b className="orange-text">opportunities</b></h1>
+                <h2 className="font-weight-bold text-center staff-heading">Current <b className="orange-text">opportunities</b></h2>
               </div>
               <div className="col-md-12 m-auto">
                 <div className="staff_steps_details text-center">
@@ -49,7 +49,7 @@ function Role() {
                         <div className="opportunities1_body" onMouseOver={({target})=>target.style.backgroundColor=`${job.border_color}`}
                           onMouseOut={({target})=>target.style.backgroundColor=''} >
                           <h3 className="text-center">ROLE</h3>
-                          <h1 className="text-center pt-3 pb-3" >{job.job_name}</h1>
+                          <h2 className="text-center pt-3 pb-3" >{job.job_name}</h2>
                           <h5 className="text-center">Desired Experience {job.experience}</h5>
                       </div>
                     </div>
@@ -70,7 +70,7 @@ function Role() {
                   <a href="#!" onClick={getRole('Wordpress Developer','#ffb300')} style={{
                   color: isYellowActive ? 'white' : 'black' }}>
                     <h3 className="text-center">ROLE</h3>
-                    <h1 className="text-center pt-3 pb-3">Wordpress Developer</h1>
+                    <h2 className="text-center pt-3 pb-3">Wordpress Developer</h2>
                     <h5 className="text-center">Desired Experience 2+ Years</h5>
                   </a>
                 </div>
@@ -83,7 +83,7 @@ function Role() {
                   <a href="#!"  onClick={getRole('Codeigniter Developer','#4385f4')} style={{
                   color: isBlueActive ? 'white' : 'black' }}>
                     <h3 className="text-center">ROLE</h3>
-                    <h1 className="text-center pt-3 pb-3">Codeigniter Developer</h1>
+                    <h2 className="text-center pt-3 pb-3">Codeigniter Developer</h2>
                     <h5 className="text-center">Desired Experience 1+ Years</h5>
                   </a> 
                 </div>
@@ -96,7 +96,7 @@ function Role() {
                   <a href="#!" onClick={getRole('Laravel Developer','#4eacae')} style={{
                   color: isGreenActive ? 'white' : 'black' }}>
                     <h3 className="text-center">ROLE</h3>
-                    <h1 className="text-center pt-3 pb-3">Laravel Developer</h1>
+                    <h2 className="text-center pt-3 pb-3">Laravel Developer</h2>
                     <h5 className="text-center">Desired Experience 1+ Years</h5>
                   </a>  
                 </div>
@@ -109,7 +109,7 @@ function Role() {
                   <a href="#!" onClick={getRole('PHP Developer','#c4df9b')} style={{
                   color: isPistaActive ? 'white' : 'black' }}>
                     <h3 className="text-center">ROLE</h3>
-                    <h1 className="text-center pt-3 pb-3">PHP <br/> Developer</h1>
+                    <h2 className="text-center pt-3 pb-3">PHP <br/> Developer</h2>
                     <h5 className="text-center">Desired Experience 1+ Years</h5>
                   </a>
                 </div>
@@ -122,7 +122,7 @@ function Role() {
                   <a href="#!" onClick={getRole('Digital Marketing Executive','#ffa8ff')} style={{
                   color: isPinkActive ? 'white' : 'black' }}>
                     <h3 className="text-center">ROLE</h3>
-                    <h1 className="text-center pt-3 pb-3">Digital Marketing Executive</h1>
+                    <h2 className="text-center pt-3 pb-3">Digital Marketing Executive</h2>
                     <h5 className="text-center">Desired Experience 0-1 Years</h5>
                   </a>  
                 </div>
@@ -135,7 +135,7 @@ function Role() {
                   <a href="#!" onClick={getRole('Business Development Executive','#ff7800')} style={{
                   color: isOrangeActive ? 'white' : 'black'}}>
                     <h3 className="text-center">ROLE</h3>
-                    <h1 className="text-center pt-3 pb-3">Business Development Executive</h1>
+                    <h2 className="text-center pt-3 pb-3">Business Development Executive</h2>
                     <h5 className="text-center">Desired Experience 1+ Years</h5>
                   </a>  
                 </div>

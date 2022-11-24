@@ -5,7 +5,7 @@ function Testimonials() {
   return (
     <>
       <div className="col-md-12 mt-3">
-        <h1 className="font-weight-bold text-center staff-heading">What our <b className="orange-text">Clients</b> Say</h1>
+        <h2 className="font-weight-bold text-center staff-heading">What our <b className="orange-text">Clients</b> Say</h2>
       </div>
       {/* <div className="col-md-8 m-auto">
         <div className="staff_steps_details text-center">

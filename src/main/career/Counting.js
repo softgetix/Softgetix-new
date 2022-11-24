@@ -7,9 +7,9 @@ function Counting() {
           <div className="container opportunities-counting_container">
               <div className="row" >
                 <div className="col-md-12 text-center">
-                  <h1 className="opportunities-counting-title pt-4">
+                  <h2 className="opportunities-counting-title pt-4">
                       Growing fast, globally
-                  </h1>
+                  </h2>
                 </div>   
               </div>
               <div className="row text-center">

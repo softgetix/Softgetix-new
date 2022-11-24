@@ -16,7 +16,7 @@ function WebDevelopmentService() {
                     <div className="staff_title">
                         <h1><b className="orange-text">Web Development </b><br/>Company</h1>
                     </div>
-                    <div className="staff_row_details pt-3">
+                    <div className="staff_row_details">
                         <p>Welcome to softgetix Inc., your virtual landscape's ultimate web development company. We provide unique and prospective solutions to help your business develop.</p>
                     </div>
                     <div className="banner_buttons">
@@ -50,7 +50,7 @@ function WebDevelopmentService() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                        <h1 className="font-weight-bold text-center staff-heading">We Offer Professional<b className="orange-text"> Web Development </b>Services</h1>
+                        <h2 className="font-weight-bold text-center staff-heading">We Offer Professional<b className="orange-text"> Web Development </b>Services</h2>
                     </div>
                     <div className=" col-md-6 col-12 csd_project_values_benefits">
                         <h4 className="benefits-item-title title-sub">Full-stack web development services</h4>
@@ -80,7 +80,7 @@ function WebDevelopmentService() {
             <div className="container pb-3">
                 <div className="row">
                 <div className="col-md-12">
-                <h1 className="font-weight-bold text-center staff-heading"><b className="orange-text">Benefits </b>of our Web Development Services</h1>
+                <h2 className="font-weight-bold text-center staff-heading"><b className="orange-text">Benefits </b>of our Web Development Services</h2>
                 </div>
                 {/* <div className="col-md-8 m-auto">
                     <div className="staff_steps_details text-center">
@@ -115,7 +115,7 @@ function WebDevelopmentService() {
             <div className="container">
             <div className="row">
                 <div className="col-md-12">
-                <h1 className="font-weight-bold text-center staff-heading">Our Professional <b className="orange-text">Web Development </b>Process</h1>
+                <h2 className="font-weight-bold text-center staff-heading">Our Professional <b className="orange-text">Web Development </b>Process</h2>
                 </div>
                 {/* <div className="col-md-8 m-auto">
                     <div className="staff_steps_details text-center">
@@ -157,7 +157,7 @@ function WebDevelopmentService() {
             <div className="container">
                 <div className="row">
                 <div className="col-md-12">
-                        <h1 className="font-weight-bold text-center staff-heading"><b className="orange-text"> FAQ </b></h1>
+                        <h2 className="font-weight-bold text-center staff-heading"><b className="orange-text"> FAQ </b></h2>
                     </div>
                     {/* <div className="col-md-8 m-auto">
                         <div className="staff_steps_details text-center">

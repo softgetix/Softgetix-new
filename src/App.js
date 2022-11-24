@@ -8,7 +8,6 @@ const Career = React.lazy(() => import('./main/career/Index'));
 const JobDetails = React.lazy(() => import('./main/career/JobDetails'));
 const AboutUs = React.lazy(() => import('./main/about/About'));
 const Contact = React.lazy(() => import('./main/contact/Contact'));
-const ContactTest = React.lazy(() => import('./main/home/ContactTest'));
 const Services = React.lazy(() => import('./main/services/Services'));
 const GetFreeQuote = React.lazy(() => import('./main/common_components/GetFreeQuote'));
 const Staffing = React.lazy(() => import('./main/staffing/Staffing'));
@@ -79,31 +78,30 @@ function App() {
           <Route path='/jobdetails/:id' exact element={<JobDetails />} />
           <Route path='/about' exact element={<AboutUs />} />
           <Route path='/contact' exact element={<Contact />} />
-          <Route path='/ContactTest' exact element={<ContactTest />} />
           <Route path='/services' exact element={<Services />} />
           <Route path='/custom_software_development' exact element={<CustomSoftwareDevelopment />} />
-          <Route path='/dedicated_team' exact element={<DedicatedTeam />} />
-          <Route path='/ITConsultantAdvisoryService' exact element={<ITConsultantAdvisoryServices />} />
-          <Route path='/ITStaffAugmentation' exact element={<ITStaffAugmentation />} />
-          <Route path='/BackendDevelopmentServices' exact element={<BackendDevelopmentService />} />
-          <Route path='/FrontendDevelopmentServices' exact element={<FrontendDevelopmentService />} />
-          <Route path='/SaasApplicationDevelopmentServices' exact element={<SaasApplicationDevelopmentService />} />
-          <Route path='/BusinessIntelligenceServices' exact element={<BusinessIntelligenceService />} />
-          <Route path='/DatabaseDevelopmentServices' exact element={<DatabaseDevelopmentService />} />
-          <Route path='/WebDevelopmentServices' exact element={<WebDevelopmentService />} />
-          <Route path='/getFreeQuote' exact element={<GetFreeQuote />} />
+          <Route path='/dedicated-team' exact element={<DedicatedTeam />} />
+          <Route path='/it-consultant-advisory-service' exact element={<ITConsultantAdvisoryServices />} />
+          <Route path='/it-staff-augmentation' exact element={<ITStaffAugmentation />} />
+          <Route path='/backend-development-services' exact element={<BackendDevelopmentService />} />
+          <Route path='/frontend-development-services' exact element={<FrontendDevelopmentService />} />
+          <Route path='/saas-application-development-services' exact element={<SaasApplicationDevelopmentService />} />
+          <Route path='/business-intelligence-services' exact element={<BusinessIntelligenceService />} />
+          <Route path='/database-development-services' exact element={<DatabaseDevelopmentService />} />
+          <Route path='/web-development-services' exact element={<WebDevelopmentService />} />
+          <Route path='/get-free-quote' exact element={<GetFreeQuote />} />
           <Route path='/staffing' exact element={<Staffing />} />
           <Route path='/hiring/:technology' exact element={<Hiring />} />
-          <Route path='/confidentiality_policy' exact element={<ConfidentialityPolicy />} />
-          <Route path='/RefundPolicy' exact element={<RefundPolicy />} />
-          <Route path='/CaseStudies' exact element={<CaseStudies />} />
-          <Route path='/SalesDaasCaseStudy' exact element={<SalesDaasCaseStudy />} />
-          <Route path='/FenceForceCaseStudy' exact element={<FenceForceCaseStudy />} />
-          <Route path='/EasyHireCaseStudy' exact element={<EasyHireCaseStudy />} />
+          <Route path='/confidentiality-policy' exact element={<ConfidentialityPolicy />} />
+          <Route path='/refund-policy' exact element={<RefundPolicy />} />
+          <Route path='/case-studies' exact element={<CaseStudies />} />
+          <Route path='/sales-daas-case-study' exact element={<SalesDaasCaseStudy />} />
+          <Route path='/fence-force-case-study' exact element={<FenceForceCaseStudy />} />
+          <Route path='/easy-hire-case-study' exact element={<EasyHireCaseStudy />} />
 
 
           <Route path='/fence-crm' exact element={<FenceCRM />} />
-          <Route path='/PricingPlan' exact element={<PricingPlan />} />
+          <Route path='/pricing-plan' exact element={<PricingPlan />} />
 
           
 

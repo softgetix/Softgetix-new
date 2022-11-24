@@ -12,7 +12,7 @@ function Partnership() {
             <div className="row">
                   <div className="text-center pb-2">
                      <div className="col-md-12">
-                        <h1 className="font-weight-bold text-center staff-heading">Partnership <b className="orange-text">Models</b></h1>
+                        <h2 className="font-weight-bold text-center staff-heading">Partnership <b className="orange-text">Models</b></h2>
                      </div>
                      <div className="col-md-8 m-auto">
                         <div className="staff_steps_details text-center">

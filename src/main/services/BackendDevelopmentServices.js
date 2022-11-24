@@ -15,7 +15,7 @@ function BackendDevelopmentService() {
                     <div className="staff_title">
                         <h1><b className="orange-text">Back End </b><br/>Development Company</h1>
                     </div>
-                    <div className="staff_row_details pt-3">
+                    <div className="staff_row_details">
                         <p>Softgetix Inc. is an entire software and back end development firm with a history of success. Our back-end development team builds high-performance, safeguard solutions for each client. With reliable back-end code, you can unlock your digital core transformation.</p>
                     </div>
                     <div className="banner_buttons">
@@ -49,7 +49,7 @@ function BackendDevelopmentService() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                        <h1 className="font-weight-bold text-center staff-heading">Back End Development <b className="orange-text">Services</b> We Provide</h1>
+                        <h2 className="font-weight-bold text-center staff-heading">Back End Development <b className="orange-text">Services</b> We Provide</h2>
                     </div>
                     <div className=" col-md-6 col-12 csd_project_values_benefits">
                         <h4 className="benefits-item-title title-sub">Web Applications</h4>
@@ -71,7 +71,7 @@ function BackendDevelopmentService() {
             <div className="container pb-3">
                 <div className="row">
                 <div className="col-md-12">
-                <h1 className="font-weight-bold text-center staff-heading"><b className="orange-text">Benefits </b>of our Back End Development Services</h1>
+                <h2 className="font-weight-bold text-center staff-heading"><b className="orange-text">Benefits </b>of our Back End Development Services</h2>
                 </div>
                 {/* <div className="col-md-8 m-auto">
                     <div className="staff_steps_details text-center">
@@ -102,7 +102,7 @@ function BackendDevelopmentService() {
             <div className="container">
             <div className="row">
                 <div className="col-md-12">
-                <h1 className="font-weight-bold text-center staff-heading">Our Back End Development<b className="orange-text"> Process</b></h1>
+                <h2 className="font-weight-bold text-center staff-heading">Our Back End Development<b className="orange-text"> Process</b></h2>
                 </div>
                 {/* <div className="col-md-8 m-auto">
                     <div className="staff_steps_details text-center">
@@ -144,7 +144,7 @@ function BackendDevelopmentService() {
             <div className="container">
                 <div className="row">
                 <div className="col-md-12">
-                        <h1 className="font-weight-bold text-center staff-heading"><b className="orange-text"> FAQ </b></h1>
+                        <h2 className="font-weight-bold text-center staff-heading"><b className="orange-text"> FAQ </b></h2>
                     </div>
                     {/* <div className="col-md-8 m-auto">
                         <div className="staff_steps_details text-center">

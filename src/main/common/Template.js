@@ -4,13 +4,13 @@ import Footer from './Footer';
 
 function Template(props) {
   return (
-    <div>
+    <React.Fragment>
       <Nav />
       <div className="main-content">
         {props.children}
         </div>
       <Footer />
-    </div>
+    </React.Fragment>
   )
 }
 

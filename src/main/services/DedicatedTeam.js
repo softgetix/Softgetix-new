@@ -1,10 +1,10 @@
 import React from 'react'
 import Template from '../common/Template'
-import {Link} from 'react-router-dom'
 import CaseStudy from '../home/CaseStudy';
 import ContactTest from '../home/ContactTest';
 
-import enterpriseServices from '../../images/EnterpriseServices.jpg'
+import enterpriseServices from '../../images/EnterpriseServices.jpg';
+import './css/dedicated-team.css';
 
 function DedicatedTeam() {
   return (
@@ -134,7 +134,7 @@ function DedicatedTeam() {
             <div className="container pb-3">
                 <div className="row">
                 <div className="col-md-12">
-                <h1 className="font-weight-bold text-center staff-heading"><b className="orange-text">Benefits </b>of Having Dedicated Development Team</h1>
+                <h2 className="font-weight-bold text-center staff-heading"><b className="orange-text">Benefits </b>of Having Dedicated Development Team</h2>
                 </div>
                 {/* <div className="col-md-8 m-auto">
                     <div className="staff_steps_details text-center">
@@ -173,7 +173,7 @@ function DedicatedTeam() {
             <div className="container">
             <div className="row">
                 <div className="col-md-12">
-                <h1 className="font-weight-bold text-center staff-heading">Our Dedicated Development Team<b className="orange-text"> Setup Process</b></h1>
+                <h2 className="font-weight-bold text-center staff-heading">Our Dedicated Development Team<b className="orange-text"> Setup Process</b></h2>
                 </div>
                 {/* <div className="col-md-8 m-auto">
                     <div className="staff_steps_details text-center">
@@ -211,7 +211,7 @@ function DedicatedTeam() {
             <div className="container">
                 <div className="row">
                 <div className="col-md-12">
-                        <h1 className="font-weight-bold text-center staff-heading"><b className="orange-text"> FAQ </b></h1>
+                        <h2 className="font-weight-bold text-center staff-heading"><b className="orange-text"> FAQ </b></h2>
                     </div>
                     {/* <div className="col-md-8 m-auto">
                         <div className="staff_steps_details text-center">
@@ -249,14 +249,14 @@ function DedicatedTeam() {
                 <div className="row">
                 <div className="col-lg-12 col-md-12 col-xs-12">
                     <div className="col-md-12">
-                        <h1 className="font-weight-bold text-center staff-heading">What are the <b className="orange-text">characteristics </b>of a dedicated development team?</h1>
+                        <h2 className="font-weight-bold text-center staff-heading">What are the <b className="orange-text">characteristics </b>of a dedicated development team?</h2>
                     </div>
                     {/* <div className="col-md-8 m-auto">
                         <div className="staff_steps_details text-center">
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                         </div>
                     </div> */}
-                    <div className="col-lg-12 mt-5">
+                    <div className="col-lg-12 mt-4">
                         <div className="row">
                             <div className="col-lg-12 text-center">
                             <p>We believe that these characteristics will assist you in selecting or establishing an excellent development team. This article is an excellent place to start the analysis, but there are a lot more variables to consider, from how to choose the development company to the specific criteria related to your area of work. If you're looking for a professional, committed development team, we are glad to give you the team you need.</p>
