@@ -25,7 +25,7 @@ function About(props) {
         <div className="col-lg-8 col-md-12 col-xs-12">
           <div className="">
             <div className="col-md-12">
-              <h1 className="font-weight-bold staff-heading">About <b className="orange-text">SoftGetix</b></h1>
+              <h2 className="font-weight-bold staff-heading">About <b className="orange-text">SoftGetix</b></h2>
             </div>
             <div className="col-md-12">
               <div className="staff_steps_details">

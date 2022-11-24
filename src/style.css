@@ -32,14 +32,16 @@ body {
 body li::marker {
   color: #ff6c6b;
 }
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px) and (min-width:200px){
   body h1:not(.banner_title) {
     font-size: 30px!important;
     padding-top: 10px!important;
   }  
   body h2 {
     font-size: 24px!important;
-    padding-top: 10px;
+  }
+  .banner_text p {
+    font-size: 16px;
   }
 }
 body h1:not(.banner_title) {
@@ -302,7 +304,7 @@ h1.banner_title {
     font-size: 16px;
   }
   .banner_info p {
-    font-size: 12px;
+    font-size: 16px;
   }
   .banner_company img {
     width: 65px;
@@ -322,6 +324,9 @@ h1.banner_title {
   }
   .banner .banner_buttons {
     margin-top: 0px !important;
+  }
+  .staff_steps_details p,.staff_steps_details b,.staff_steps_details li{
+    font-size: 16px;
   }
 }
 @media only screen and (max-width: 390px) {
@@ -398,7 +403,7 @@ h1.banner_title {
 }
 @media only screen and (max-width: 768px) {
   .award_paragraph {
-    font-size: 12px;
+    font-size: 16px;
   }
   .award_container {
     width: 100%;
@@ -1137,8 +1142,8 @@ button.read {
     text-align: center;
   }
   #staff_banner .staff_row_details {
-    font-size: 14px;
-    text-align: center;
+    font-size: 15px;
+    text-align: justify;
   }
   #staff_banner .banner_buttons {
     display: flex;
@@ -1176,9 +1181,12 @@ button.read {
 
 @media only screen and (max-width:767px){
   #staff_banner {
-      margin-top: 60px !important;
+      margin-top: 40px !important;
       background-color: #f8fcff;
       padding: 20px 0px 20px 0px;
+    }
+    .staff_title{
+      padding-bottom: 10px;
     }
 }
 #careers-banner {
@@ -2285,71 +2293,7 @@ h1.opportunities-counting-title {
 }
 /* fence crm page css end */
 /* services css start (dedicated team) */
-.dedicated_team_section2 .csd_project_values h4 {
-  padding: 30px 30px 0px 30px;
-  font-weight: 600;
-}
-.dedicated_team_section2 .csd_project_values p.text {
-  padding: 5px 30px 0px 30px;
-}
-.dedicated_team_section2 .csd_project_values {
-  height: auto !important;
-}
-.dedicated_team_section2
-  .csd_project_values
-  h4.benefits-item-title.title-sub
-  span {
-  font-size: 55px;
-  color: #ff6c6b;
-  margin-right: 15px;
-  padding: 0px 0px;
-}
-.dedicated_team_section5 ul {
-  line-height: 30px;
-}
-.dedicated_team_section5 {
-  padding: 0 50px;
-}
-.dedicated_team_section1 li::marker,
-.dedicated_team_section5 li::marker {
-  color: #ff6c6b;
-}
-.dedicated_team_section5_section {
-  margin-top: 70px;
-  background-color: #f0f9ff !important;
-  padding: 30px 0px 20px 0px;
-}
-@media only screen and (max-width: 768px) {
-  .dedicated_team_section1_img {
-    padding: 0px !important;
-  }
-  .dedicated_team_section1_text {
-    padding: 0px !important;
-    margin-top: 20px;
-    font-size: 14px;
-  }
-  .dedicated_team_section2 {
-    margin-bottom: 20px;
-  }
-  .dedicated_team_section2 .csd_project_values h4 {
-    padding: 0px;
-    font-size: 18px;
-  }
-  .dedicated_team_section2 .csd_project_values p.text {
-    padding: 0px;
-    font-size: 14px;
-  }
-  .col-lg-6.col-md-12.col-xs-12.dedicated_team_section5 {
-    padding: 0px 20px;
-  }
-  .dedicated_team_section5_section {
-    margin-top: 40px;
-  }
-  .dedicated_team_section5 .banner_buttons {
-    text-align: center;
-    margin-left: 0px !important;
-  }
-}
+
 /* services css end (dedicated team) */
 
 /*Home about css start*/

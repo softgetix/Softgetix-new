@@ -127,7 +127,7 @@ function JobDetails() {
               </div>  
             </div>
             <div className="col-lg-12 mt-3 mb-3">
-              <h1><b>Expertise in { users.expertise }</b></h1>
+              <h2><b>Expertise in { users.expertise }</b></h2>
               <div>
                 <ul className="job-ul">
                   {/* <li className="pt-3">{ users.description }</li> */}

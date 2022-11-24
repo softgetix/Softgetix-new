@@ -15,7 +15,7 @@ function FrontendDevelopmentService() {
                     <div className="staff_title">
                         <h1><b className="orange-text">Front End </b><br/>Development Company</h1>
                     </div>
-                    <div className="staff_row_details pt-3">
+                    <div className="staff_row_details ">
                         <p>We are a front end development company that offers outstanding visual experiences across platforms. Our development team produces interactive apps in which the user interface and functionality are flawlessly integrated. Softgetix inc. can help you engage your clients as well as provide powerful user experiences.</p>
                     </div>
                     <div className="banner_buttons">
@@ -49,7 +49,7 @@ function FrontendDevelopmentService() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                        <h1 className="font-weight-bold text-center staff-heading">Front End Development <b className="orange-text">Services</b> We Provide</h1>
+                        <h2 className="font-weight-bold text-center staff-heading">Front End Development <b className="orange-text">Services</b> We Provide</h2>
                     </div>
                     <div className=" col-md-6 col-12 csd_project_values_benefits">
                         <h4 className="benefits-item-title title-sub">Customize Web Apps</h4>
@@ -75,7 +75,7 @@ function FrontendDevelopmentService() {
             <div className="container pb-3">
                 <div className="row">
                 <div className="col-md-12">
-                <h1 className="font-weight-bold text-center staff-heading"><b className="orange-text">Benefits </b>Front End Development Services</h1>
+                <h2 className="font-weight-bold text-center staff-heading"><b className="orange-text">Benefits </b>Front End Development Services</h2>
                 </div>
                 {/* <div className="col-md-8 m-auto">
                     <div className="staff_steps_details text-center">
@@ -110,7 +110,7 @@ function FrontendDevelopmentService() {
             <div className="container">
             <div className="row">
                 <div className="col-md-12">
-                <h1 className="font-weight-bold text-center staff-heading">Our Front End Development<b className="orange-text"> Process</b></h1>
+                <h2 className="font-weight-bold text-center staff-heading">Our Front End Development<b className="orange-text"> Process</b></h2>
                 </div>
                 {/* <div className="col-md-8 m-auto">
                     <div className="staff_steps_details text-center">
@@ -156,7 +156,7 @@ function FrontendDevelopmentService() {
             <div className="container">
                 <div className="row">
                 <div className="col-md-12">
-                        <h1 className="font-weight-bold text-center staff-heading"><b className="orange-text"> FAQ </b></h1>
+                        <h2 className="font-weight-bold text-center staff-heading"><b className="orange-text"> FAQ </b></h2>
                     </div>
                     {/* <div className="col-md-8 m-auto">
                         <div className="staff_steps_details text-center">
