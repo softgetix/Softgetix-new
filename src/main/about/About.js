@@ -2,7 +2,7 @@ import React from 'react';
 import Template from '../common/Template';
 import ContactTest from '../home/ContactTest';
 
-import aboutBannerImg from '../../images/about-imgs1.87a10132d9e80684b34c.webp'
+import aboutBannerImg from '../../images/about-imgs1.87a10132d9e80684b34c.4ca23d5a90d6a661bc88.webp'
 
 import flight from '../../icons/flight.png'
 import rating from '../../icons/rating.png'
