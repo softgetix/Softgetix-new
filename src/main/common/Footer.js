@@ -61,7 +61,7 @@ function Footer() {
                       <li>- <Link to="/contact">Contact Us</Link></li>
                       {/* <li>- <Link to="#">Technology Blog</Link></li> */}
                       <li>- <Link to="/confidentiality-policy">Confidentiality Policy</Link></li>
-                      <li>- <Link to="/RefundPolicy">Refund Policy</Link></li>
+                      <li>- <Link to="/refund-policy">Refund Policy</Link></li>
                     </ul>
               </div>
               <div className="col-lg-4 col-xs-12 links">
