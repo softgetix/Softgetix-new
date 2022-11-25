@@ -1,7 +1,6 @@
 import React, {Suspense} from "react";
 import { BrowserRouter , Routes, Route} from 'react-router-dom';
 // import Home from './main/home/Index';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Loader from "./main/Loader";
 import ScrollToTop from "./ScrollToTop";
 const Home = React.lazy(() => import('./main/home/Index'));
