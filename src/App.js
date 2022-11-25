@@ -4,12 +4,11 @@ import { BrowserRouter , Routes, Route} from 'react-router-dom';
 // import Home from './main/home/Index';
 import Loader from "./main/Loader";
 import ScrollToTop from "./ScrollToTop";
-import { Helmet } from "react-helmet";
 const Home = React.lazy(() => import('./main/home/Index'));
 const Career = React.lazy(() => import('./main/career/Index'));
 const JobDetails = React.lazy(() => import('./main/career/JobDetails'));
 const AboutUs = React.lazy(() => import('./main/about/About'));
-const Contact = React.lazy(() => import('./main/contact/Contact'));
+// const Contact = React.lazy(() => import('./main/contact/Contact'));
 const Services = React.lazy(() => import('./main/services/Services'));
 const GetFreeQuote = React.lazy(() => import('./main/common_components/GetFreeQuote'));
 const Staffing = React.lazy(() => import('./main/staffing/Staffing'));
@@ -33,7 +32,8 @@ const SalesDaasCaseStudy = React.lazy(() => import('./main/CaseStudy/SalesDaasCa
 const FenceForceCaseStudy = React.lazy(() => import('./main/CaseStudy/FenceForceCaseStudy'));
 const EasyHireCaseStudy = React.lazy(() => import('./main/CaseStudy/EasyHireCaseStudy'));
 const PricingPlan = React.lazy(() => import('./main/PricingPlan'));
- 
+const ContactTest = React.lazy(() => import('./main/contact/NewContact'));
+
 // import Career from './main/career/Index';
 // import JobDetails from './main/career/JobDetails';
 // import AboutUs from './main/about/About';
@@ -79,7 +79,7 @@ function App() {
           <Route path='/career' exact element={<Career />} />
           <Route path='/jobdetails/:id' exact element={<JobDetails />} />
           <Route path='/about' exact element={<AboutUs />} />
-          <Route path='/contact' exact element={<Contact />} />
+          <Route path='/contact' exact element={<ContactTest />} />
           <Route path='/services' exact element={<Services />} />
           <Route path='/custom_software_development' exact element={<CustomSoftwareDevelopment />} />
           <Route path='/dedicated-team' exact element={<DedicatedTeam />} />
