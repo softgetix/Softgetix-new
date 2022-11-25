@@ -1,14 +1,25 @@
 import React from 'react'
-import ContentLoader from 'react-content-loader'
 
-const Loader = ({ ...rest }) => (
-  <ContentLoader  width="100%" viewBox="0 0 265 230" {...rest}>
-    <rect x="15" y="15" rx="4" ry="4" width="350" height="25" />
-    <rect x="15" y="50" rx="2" ry="2" width="350" height="150" />
-    <rect x="15" y="230" rx="2" ry="2" width="170" height="20" />
-    <rect x="60" y="230" rx="2" ry="2" width="170" height="20" />
-  </ContentLoader>
-);
+import { Puff } from  'react-loader-spinner'
+
+const Loader = () => {
+  const style = { position: "fixed", top: "50%", left: "50%", transform: "translate(-50%, -50%)" };
+return(
+  <div style={style}>
+<Puff
+  height="80"
+  width="80"
+  radisu={1}
+  color="#fa7169"
+  ariaLabel="puff-loading"
+  wrapperStyle={{}}
+  wrapperClass=""
+  visible={true}
+/>
+</div>) 
+
+
+}
 
 
 

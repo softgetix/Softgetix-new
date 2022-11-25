@@ -137,7 +137,7 @@ function ITStaffAugmentation() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
-                        <h1 className="font-weight-bold text-center staff-heading">IT Staff Augmentation<b className="orange-text"> Services</b> We Provide</h1>
+                        <h2 className="font-weight-bold text-center staff-heading">IT Staff Augmentation<b className="orange-text"> Services</b> We Provide</h2>
                     </div>
                     <div className=" col-md-6 col-12 csd_project_values_benefits">
                         <h4 className="benefits-item-title title-sub">Add Extra Force in Your Existing Project</h4>
@@ -163,7 +163,7 @@ function ITStaffAugmentation() {
             <div className="container pb-3">
                 <div className="row">
                   <div className="col-md-12">
-                     <h1 className="font-weight-bold text-center staff-heading"><b className="orange-text">Benefits </b>of IT Staff Augmentation</h1>
+                     <h2 className="font-weight-bold text-center staff-heading"><b className="orange-text">Benefits </b>of IT Staff Augmentation</h2>
                   </div>
                 {/* <div className="col-md-8 m-auto">
                     <div className="staff_steps_details text-center">
@@ -191,7 +191,7 @@ function ITStaffAugmentation() {
             <div className="container">
             <div className="row">
                 <div className="col-md-12">
-                <h1 className="font-weight-bold text-center staff-heading">Preparing for<b className="orange-text">  IT Staff Augmentation</b></h1>
+                <h2 className="font-weight-bold text-center staff-heading">Preparing for<b className="orange-text">  IT Staff Augmentation</b></h2>
                 </div>
                 {/* <div className="col-md-8 m-auto">
                     <div className="staff_steps_details text-center">
@@ -229,7 +229,7 @@ function ITStaffAugmentation() {
             <div className="container">
                 <div className="row">
                 <div className="col-md-12">
-                        <h1 className="font-weight-bold text-center staff-heading"><b className="orange-text"> FAQ </b></h1>
+                        <h2 className="font-weight-bold text-center staff-heading"><b className="orange-text"> FAQ </b></h2>
                     </div>
                     
                 <div className="col-lg-6 col-md-12 col-xs-12 dedicated_team_section5">
@@ -251,7 +251,7 @@ function ITStaffAugmentation() {
                 <div className="row">
                 <div className="col-lg-12 col-md-12 col-xs-12">
                     <div className="col-md-12">
-                        <h1 className="font-weight-bold text-center staff-heading">What are the <b className="orange-text">characteristics </b>of a dedicated development team?</h1>
+                        <h2 className="font-weight-bold text-center staff-heading">What are the <b className="orange-text">characteristics </b>of a dedicated development team?</h2>
                     </div>
                     
                     <div className="col-lg-12 mt-5">

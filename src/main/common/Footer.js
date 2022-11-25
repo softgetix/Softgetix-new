@@ -68,8 +68,8 @@ function Footer() {
                     <h4 className="mt-lg-0 mt-sm-3 font-weight-bold">Services</h4>
                     <ul className="m-0 p-0 address">
                       {/* <li>- <Link to="/custom_software_development">Custom Software Development</Link></li> */}
-                      <li>- <Link to="/dedicated_team">Dedicated Development Team</Link></li>
-                      <li>- <Link to="/ITStaffAugmentation">IT Staff Augmentation</Link></li>
+                      <li>- <Link to="/dedicated-team">Dedicated Development Team</Link></li>
+                      <li>- <Link to="/it-staff-augmentation">IT Staff Augmentation</Link></li>
                       {/* <li>- <Link to="/ITConsultantAdvisoryService">IT Consulting and Digital Advisory</Link></li> */}
                       <li>- <Link to="/BackendDevelopmentServices">Back End Development</Link></li>
                       <li>- <Link to="/FrontendDevelopmentServices">Front End Development</Link></li>
