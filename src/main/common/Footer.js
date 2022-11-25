@@ -72,11 +72,11 @@ function Footer() {
                       <li>- <Link to="/it-staff-augmentation">IT Staff Augmentation</Link></li>
                       {/* <li>- <Link to="/ITConsultantAdvisoryService">IT Consulting and Digital Advisory</Link></li> */}
                       <li>- <Link to="/backend-development-services">Back End Development</Link></li>
-                      <li>- <Link to="/FrontendDevelopmentServices">Front End Development</Link></li>
+                      <li>- <Link to="/frontend-development-services">Front End Development</Link></li>
                       {/* <li>- <Link to="/SaasApplicationDevelopmentServices">SaaS Application Development</Link></li> */}
                       {/* <li>- <Link to="/BusinessIntelligenceServices">Business Intelligence</Link></li> */}
                       {/* <li>- <Link to="/DatabaseDevelopmentServices">Database Development</Link></li> */}
-                      <li>- <Link to="/WebDevelopmentServices">Web Development</Link></li>
+                      <li>- <Link to="/web-development-services">Web Development</Link></li>
                     </ul>
               </div>
                 {/* <div className="col-lg-12 col-xs-12 copyright">
