@@ -8,6 +8,7 @@ import ContactUsTest from "./ContactTest";
 import Template from "../common/Template";
 import CaseStudy from "./CaseStudy";
 import Testimonials from "./Testimonials";
+import { Helmet } from "react-helmet";
 
 function Index(props) {
   const ContactSection = React.useRef("");
@@ -31,7 +32,16 @@ function Index(props) {
 
   return (
     <>
+    <Helmet>
+        <title>Digital Product Engineering & IT Staff Augmentation Company | SoftGetix</title>
+        <meta
+      name="description"
+      content="SoftGetix helps companies worldwide improve the speed and quality of their product development with the help of our tailored IT staff augmentation services."/>
+    <meta name="keywords" content=""></meta>
+
+        </Helmet>
       <Template>
+      
         <Banner />
         <About />
         <Partnership />

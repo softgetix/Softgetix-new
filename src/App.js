@@ -1,8 +1,10 @@
 import React, {Suspense} from "react";
+import HeaderHelmet from "./Helmet";
 import { BrowserRouter , Routes, Route} from 'react-router-dom';
 // import Home from './main/home/Index';
 import Loader from "./main/Loader";
 import ScrollToTop from "./ScrollToTop";
+import { Helmet } from "react-helmet";
 const Home = React.lazy(() => import('./main/home/Index'));
 const Career = React.lazy(() => import('./main/career/Index'));
 const JobDetails = React.lazy(() => import('./main/career/JobDetails'));
