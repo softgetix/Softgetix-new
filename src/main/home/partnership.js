@@ -32,7 +32,7 @@ function Partnership() {
                                  <h3>Fixed Price Project model</h3>
                                  <p className="mt-3 model-paragraph">The fixed price (also known as project-based) model is perfect for small and medium-scope projects, where requirements, specifications, and schedules can be clearly defined before the start of the project development.</p>
                                  <div className="index-model-buttons">
-                                    <Link to="/GetFreeQuote" className="btn free_Quote_btn btn-sm" ><b>Build a Product</b></Link>
+                                    <Link to="/get-free-quote" className="btn free_Quote_btn btn-sm" ><b>Build a Product</b></Link>
                                  </div>
                               </div>
                            </div>      

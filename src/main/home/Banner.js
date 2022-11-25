@@ -29,7 +29,7 @@ function Banner() {
                         <p>We take care of everything from concept development to business analysis, design and prototyping, development, quality assurance, deployment and post-project maintenance and support.</p>
                      </div>
                      <div className="banner_buttons mt-5">
-                        <Link to="/GetFreeQuote" className="btn btn-banner_btn1 btn-lg " ><b>Build a Product</b></Link>
+                        <Link to="/get-free-quote" className="btn btn-banner_btn1 btn-lg " ><b>Build a Product</b></Link>
                         <Link to="/staffing" className="btn btn-banner_btn2 btn-lg "><b>Staff My Team</b></Link>
                         
                      </div>

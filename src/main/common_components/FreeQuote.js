@@ -11,7 +11,7 @@ function FreeQuote() {
                 <div className="col-lg-2"></div>
                 <div className="col-lg-8 text-center">
                     <h1><b>Request A Free Quotation Today!</b></h1>
-                    <Link to="/getFreeQuote" className="btn free_Quote_btn btn-lg mt-3" >Get a Free Quote!</Link>
+                    <Link to="/get-free-quote" className="btn free_Quote_btn btn-lg mt-3" >Get a Free Quote!</Link>
                 </div>
                 <div className="col-lg-2"></div>
               </div>
