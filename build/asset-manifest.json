@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.77dd4cad.css",
-    "main.js": "/static/js/main.9478027e.js",
+    "main.js": "/static/js/main.23c7e75e.js",
     "static/js/903.0d4b295d.chunk.js": "/static/js/903.0d4b295d.chunk.js",
     "static/js/169.0ce6382d.chunk.js": "/static/js/169.0ce6382d.chunk.js",
     "static/js/595.226b4cc8.chunk.js": "/static/js/595.226b4cc8.chunk.js",
@@ -16,7 +16,7 @@
     "static/js/296.4cfb1acb.chunk.js": "/static/js/296.4cfb1acb.chunk.js",
     "static/js/642.fb6f29fd.chunk.js": "/static/js/642.fb6f29fd.chunk.js",
     "static/js/91.526c895a.chunk.js": "/static/js/91.526c895a.chunk.js",
-    "static/css/381.2c995c60.chunk.css": "/static/css/381.2c995c60.chunk.css",
+    "static/css/381.44723a95.chunk.css": "/static/css/381.44723a95.chunk.css",
     "static/js/381.71ef58df.chunk.js": "/static/js/381.71ef58df.chunk.js",
     "static/js/236.4be0e115.chunk.js": "/static/js/236.4be0e115.chunk.js",
     "static/js/477.06854edb.chunk.js": "/static/js/477.06854edb.chunk.js",
@@ -41,6 +41,7 @@
     "static/media/about-imgs1.webp": "/static/media/about-imgs1.87a10132d9e80684b34c.4ca23d5a90d6a661bc88.edae665de8a1cb890ad5.webp",
     "static/media/careers-slider2.webp": "/static/media/careers-slider2.5678733245980b65f1f7.webp",
     "static/media/Poppins-Italic.ttf": "/static/media/Poppins-Italic.e373f6163127e2d469af.ttf",
+    "static/media/staff-augmentation-slider-img.webp": "/static/media/staff-augmentation-slider-img.0323f25609f0d1e76e74.0d316e0292cf01bfde5a.034005661fcd9a36f986.webp",
     "static/media/EnterpriseServices.jpg": "/static/media/EnterpriseServices.2ebb7525b29f5f9c7782.jpg",
     "static/media/Poppins-Light.ttf": "/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
     "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
@@ -51,7 +52,6 @@
     "static/media/careers-slider6.webp": "/static/media/careers-slider6.89a73a3cc2fc56e1df1b.webp",
     "static/media/salesdaas-io.webp": "/static/media/salesdaas-io.f035481306fb0e2d9477.webp",
     "static/media/easyhire-io.webp": "/static/media/easyhire-io.3a5373111c409948db84.webp",
-    "static/media/staff-augmentation-slider-img.webp": "/static/media/staff-augmentation-slider-img.0323f25609f0d1e76e74.0d316e0292cf01bfde5a.f8355cf6f9f821f3112e.webp",
     "static/media/contact_us_img.webp": "/static/media/contact_us_img.c6119c11aa2e2233b6c2.webp",
     "static/media/staff_banner_img.png": "/static/media/staff_banner_img.82ae176a344aa2d86c95.png",
     "static/media/Software-Development.webp": "/static/media/Software-Development.5403a4a2ee330c0865ac.webp",
@@ -80,7 +80,7 @@
     "static/media/productbought.webp": "/static/media/productbought.b63975700dfb5f777f12.webp",
     "static/media/calendar.webp": "/static/media/calendar.613f40dcd80a6a67ff8d.webp",
     "main.77dd4cad.css.map": "/static/css/main.77dd4cad.css.map",
-    "main.9478027e.js.map": "/static/js/main.9478027e.js.map",
+    "main.23c7e75e.js.map": "/static/js/main.23c7e75e.js.map",
     "903.0d4b295d.chunk.js.map": "/static/js/903.0d4b295d.chunk.js.map",
     "169.0ce6382d.chunk.js.map": "/static/js/169.0ce6382d.chunk.js.map",
     "595.226b4cc8.chunk.js.map": "/static/js/595.226b4cc8.chunk.js.map",
@@ -94,7 +94,7 @@
     "296.4cfb1acb.chunk.js.map": "/static/js/296.4cfb1acb.chunk.js.map",
     "642.fb6f29fd.chunk.js.map": "/static/js/642.fb6f29fd.chunk.js.map",
     "91.526c895a.chunk.js.map": "/static/js/91.526c895a.chunk.js.map",
-    "381.2c995c60.chunk.css.map": "/static/css/381.2c995c60.chunk.css.map",
+    "381.44723a95.chunk.css.map": "/static/css/381.44723a95.chunk.css.map",
     "381.71ef58df.chunk.js.map": "/static/js/381.71ef58df.chunk.js.map",
     "236.4be0e115.chunk.js.map": "/static/js/236.4be0e115.chunk.js.map",
     "477.06854edb.chunk.js.map": "/static/js/477.06854edb.chunk.js.map",
@@ -118,6 +118,6 @@
   },
   "entrypoints": [
     "static/css/main.77dd4cad.css",
-    "static/js/main.9478027e.js"
+    "static/js/main.23c7e75e.js"
   ]
 }
