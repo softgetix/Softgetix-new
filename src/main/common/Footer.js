@@ -71,7 +71,7 @@ function Footer() {
                       <li>- <Link to="/dedicated-team">Dedicated Development Team</Link></li>
                       <li>- <Link to="/it-staff-augmentation">IT Staff Augmentation</Link></li>
                       {/* <li>- <Link to="/ITConsultantAdvisoryService">IT Consulting and Digital Advisory</Link></li> */}
-                      <li>- <Link to="/BackendDevelopmentServices">Back End Development</Link></li>
+                      <li>- <Link to="/backend-development-services">Back End Development</Link></li>
                       <li>- <Link to="/FrontendDevelopmentServices">Front End Development</Link></li>
                       {/* <li>- <Link to="/SaasApplicationDevelopmentServices">SaaS Application Development</Link></li> */}
                       {/* <li>- <Link to="/BusinessIntelligenceServices">Business Intelligence</Link></li> */}
