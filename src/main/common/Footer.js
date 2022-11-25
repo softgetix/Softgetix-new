@@ -60,23 +60,23 @@ function Footer() {
                       <li>- <Link to="/career">Careers</Link></li>
                       <li>- <Link to="/contact">Contact Us</Link></li>
                       {/* <li>- <Link to="#">Technology Blog</Link></li> */}
-                      <li>- <Link to="/confidentiality_policy">Confidentiality Policy</Link></li>
-                      <li>- <Link to="/RefundPolicy">Refund Policy</Link></li>
+                      <li>- <Link to="/confidentiality-policy">Confidentiality Policy</Link></li>
+                      <li>- <Link to="/refund-policy">Refund Policy</Link></li>
                     </ul>
               </div>
               <div className="col-lg-4 col-xs-12 links">
                     <h4 className="mt-lg-0 mt-sm-3 font-weight-bold">Services</h4>
                     <ul className="m-0 p-0 address">
                       {/* <li>- <Link to="/custom_software_development">Custom Software Development</Link></li> */}
-                      <li>- <Link to="/dedicated_team">Dedicated Development Team</Link></li>
-                      <li>- <Link to="/ITStaffAugmentation">IT Staff Augmentation</Link></li>
+                      <li>- <Link to="/dedicated-team">Dedicated Development Team</Link></li>
+                      <li>- <Link to="/it-staff-augmentation">IT Staff Augmentation</Link></li>
                       {/* <li>- <Link to="/ITConsultantAdvisoryService">IT Consulting and Digital Advisory</Link></li> */}
-                      <li>- <Link to="/BackendDevelopmentServices">Back End Development</Link></li>
-                      <li>- <Link to="/FrontendDevelopmentServices">Front End Development</Link></li>
+                      <li>- <Link to="/backend-development-services">Back End Development</Link></li>
+                      <li>- <Link to="/frontend-development-services">Front End Development</Link></li>
                       {/* <li>- <Link to="/SaasApplicationDevelopmentServices">SaaS Application Development</Link></li> */}
                       {/* <li>- <Link to="/BusinessIntelligenceServices">Business Intelligence</Link></li> */}
                       {/* <li>- <Link to="/DatabaseDevelopmentServices">Database Development</Link></li> */}
-                      <li>- <Link to="/WebDevelopmentServices">Web Development</Link></li>
+                      <li>- <Link to="/web-development-services">Web Development</Link></li>
                     </ul>
               </div>
                 {/* <div className="col-lg-12 col-xs-12 copyright">

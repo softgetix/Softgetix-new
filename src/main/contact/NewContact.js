@@ -1,7 +1,7 @@
 import Template from '../common/Template';
 import React, { useState } from 'react'
 
-function ContactTest() {
+function NewContact() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [mobile, setMobileNumber] = useState("");
@@ -50,6 +50,7 @@ function ContactTest() {
 
   return ( 
     <>
+    <Template>
       
       <section className="contact_us" id="conthub">
           <div className="container">
@@ -135,9 +136,9 @@ function ContactTest() {
               </div>
             </div>
         </section>
-        
+        </Template>
     </>
   )
 }
 
-export default ContactTest
+export default NewContact;

@@ -25,7 +25,7 @@ function CaseStudy() {
                 </p>
               </div>
               <p className="text-secondary">
-              Sales Data as a Service (DaaS) enables companies to outsource their data collection and analysis to a third-party cloud-based tool to gather sales data and gauge sales performance. It is used to identify, optimize, and forecast sales. It uses different metrics and KPIs to plan an efficient sales model that generates higher revenue for the business. Sales DaaS gives companies the ability to gain access to the data and sales insights they need within a matter of a few simple clicks. <Link to="/SalesDaasCaseStudy" style={{"color":"#ff6c6b"}}>.....more</Link></p>  
+              Sales Data as a Service (DaaS) enables companies to outsource their data collection and analysis to a third-party cloud-based tool to gather sales data and gauge sales performance. It is used to identify, optimize, and forecast sales. It uses different metrics and KPIs to plan an efficient sales model that generates higher revenue for the business. Sales DaaS gives companies the ability to gain access to the data and sales insights they need within a matter of a few simple clicks. <Link to="/sales-daas-case-study" style={{"color":"#ff6c6b"}}>.....more</Link></p>  
 
               {/* <p className="text-secondary">Sales DaaS tools enable companies to take a no-code approach to data collection means companies no longer need to spend massive amounts of time on their data collection operations and no longer need in-house database management infrastructure and dedicated database engineers & DevOps teams. 
 
@@ -39,7 +39,7 @@ function CaseStudy() {
                 </p>
               </div>
               <div className="d-flex flex-row w-100 mt-3 mb-3">
-                <Link to="/SalesDaasCaseStudy" className="btn free_Quote_btn case-study-btn btn-lg">
+                <Link to="/sales-daas-case-study" className="btn free_Quote_btn case-study-btn btn-lg">
                   View Case Study
                 </Link>
               </div>
@@ -74,7 +74,7 @@ function CaseStudy() {
                 </p>
               </div>
               <div className="d-flex flex-row w-100 mt-3 mb-3">
-                <Link to="/FenceForceCaseStudy" className="btn free_Quote_btn case-study-btn btn-lg">
+                <Link to="/fence-force-case-study" className="btn free_Quote_btn case-study-btn btn-lg">
                   View Case Study
                 </Link>
               </div>
@@ -110,7 +110,7 @@ function CaseStudy() {
                 </p>
               </div>
               <div className="d-flex flex-row w-100 mt-3 mb-3">
-                <Link to="/EasyHireCaseStudy" className="btn free_Quote_btn case-study-btn btn-lg">
+                <Link to="/easy-hire-case-study" className="btn free_Quote_btn case-study-btn btn-lg">
                   View Case Study
                 </Link>
               </div>

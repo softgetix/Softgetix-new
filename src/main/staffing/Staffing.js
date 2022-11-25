@@ -38,6 +38,7 @@ import mongoDB from '../../icons/mongoDB.png'
 import postgreSql from '../../icons/postgreSQL.png'
 import graphicDesigner from '../../icons/graphicDesigner.png'
 import './staffing.css';
+import  Helmet  from 'react-helmet';
 function Staffing() {
 
     const resourceSection = React.useRef();
@@ -55,6 +56,11 @@ function Staffing() {
 
   return (
     <>
+    <Helmet>
+    <title>IT Staff Augmentation Services Firm | Top IT Staff Augmentation</title>
+    <meta name="description" content="SoftGetix is a leading IT Staff Augmentation company. Use our IT augmentation services to scale your existing team and fill necessary skill gaps."></meta>
+    <meta name="keyword" content=''></meta>
+    </Helmet>
     <Template>
         <section id="staff_banner">
             <div className="container">
