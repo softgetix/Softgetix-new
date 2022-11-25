@@ -74,7 +74,7 @@ function CaseStudy() {
                 </p>
               </div>
               <div className="d-flex flex-row w-100 mt-3 mb-3">
-                <Link to="/FenceForceCaseStudy" className="btn free_Quote_btn case-study-btn btn-lg">
+                <Link to="/fence-force-case-study" className="btn free_Quote_btn case-study-btn btn-lg">
                   View Case Study
                 </Link>
               </div>
@@ -110,7 +110,7 @@ function CaseStudy() {
                 </p>
               </div>
               <div className="d-flex flex-row w-100 mt-3 mb-3">
-                <Link to="/EasyHireCaseStudy" className="btn free_Quote_btn case-study-btn btn-lg">
+                <Link to="/easy-hire-case-study" className="btn free_Quote_btn case-study-btn btn-lg">
                   View Case Study
                 </Link>
               </div>
