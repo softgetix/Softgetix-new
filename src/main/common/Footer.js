@@ -54,7 +54,7 @@ function Footer() {
                     <h4 className="mt-lg-0 mt-sm-3 font-weight-bold">Company</h4>
                     <ul className="m-0 p-0 address">
                       <li>- <Link to="/about">About Us</Link></li>
-                      <li>- <Link to="/staffing">Staffing</Link></li>
+                      <li>- <Link to="/it-staff-augmentation-services">Staffing</Link></li>
                       {/* <li>- <Link to="/fence-crm">Products</Link></li> */}
                       {/* <li>- <Link to="/services">Blog</Link></li> */}
                       <li>- <Link to="/career">Careers</Link></li>

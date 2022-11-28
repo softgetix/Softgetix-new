@@ -11,7 +11,7 @@ const AboutUs = React.lazy(() => import('./main/about/About'));
 // const Contact = React.lazy(() => import('./main/contact/Contact'));
 const Services = React.lazy(() => import('./main/services/Services'));
 const GetFreeQuote = React.lazy(() => import('./main/common_components/GetFreeQuote'));
-const Staffing = React.lazy(() => import('./main/staffing/Staffing'));
+const Staffing = React.lazy(() => import('./main/it-staff-augmentation-services/it-staff-augmentation-services'));
 const ConfidentialityPolicy = React.lazy(() => import('./main/ConfidentialityPolicy'));
 
 const RefundPolicy = React.lazy(() => import('./main/RefundPolicy'));
@@ -41,7 +41,7 @@ const ContactTest = React.lazy(() => import('./main/contact/NewContact'));
 // import ContactTest from './main/home/ContactTest';
 // import Services from "./main/services/Services";
 // import GetFreeQuote from "./main/common_components/GetFreeQuote";
-// import Staffing from "./main/staffing/Staffing";   
+// import Staffing from "./main/it-staff-augmentation-services/it-staff-augmentation-services";   
 // // import ConfidentialityPolicy from "./main/ConfidentialityPolicy";
 // import RefundPolicy from './main/RefundPolicy';
 // // import CaseStudies from './main/CaseStudies';
@@ -95,7 +95,7 @@ function App() {
           <Route path='/database-development-services' exact element={<DatabaseDevelopmentService />} />
           <Route path='/web-development-services' exact element={<WebDevelopmentService />} />
           <Route path='/get-free-quote' exact element={<GetFreeQuote />} />
-          <Route path='/staffing' exact element={<Staffing />} />
+          <Route path='/it-staff-augmentation-services' exact element={<Staffing />} />
           <Route path='/hiring/:technology' exact element={<Hiring />} />
           <Route path='/confidentiality-policy' exact element={<ConfidentialityPolicy />} />
           <Route path='/refund-policy' exact element={<RefundPolicy />} />
