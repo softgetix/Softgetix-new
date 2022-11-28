@@ -1,11 +1,9 @@
 #IT-staff-augmented-slider .augmentation-staff-slider .augmentation-staff-slider-row {
     width: 4200px;
-    height: 335px;
+    height: 391px;
     background-image: url('../assets/staff-augmentation-slider-img.0323f25609f0d1e76e74.webp');
     /*background-size: 2956px 194.5px;*/
-    background-size: 4200px 335px;
     animation: slide 50s linear infinite;
-    object-fit: contain;
     
   }
  
