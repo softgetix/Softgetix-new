@@ -1,7 +1,6 @@
 import React, {Suspense} from "react";
 import { BrowserRouter , Routes, Route} from 'react-router-dom';
 // import Home from './main/home/Index';
-import { Helmet } from "react-helmet";
 import Loader from "./main/Loader";
 import ScrollToTop from "./ScrollToTop";
 const Home = React.lazy(() => import('./main/home/Index'));
@@ -70,9 +69,7 @@ import './BackToTopButton.js';
 function App() {
   return (
     <div className="App">
-      <Helmet>
-      <meta name="google-site-verification" content="4u5qJogshQWVHHZM5gWU7j6S5R6kydqQnAyoov9Ga50" />
-      </Helmet>
+   
       <BrowserRouter>
       <Suspense fallback={<Loader/>}>
         <ScrollToTop />
