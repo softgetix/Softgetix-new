@@ -3,8 +3,7 @@
     height: 391px;
     background-image: url('../assets/staff-augmentation-slider-img.0323f25609f0d1e76e74.webp');
     /*background-size: 2956px 194.5px;*/
-    animation: slide 50s linear infinite;
-    
+    animation: slide 50s linear infinite; 
   }
  
 
