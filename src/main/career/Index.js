@@ -3,10 +3,13 @@ import Banner from './Banner';
 import Counting from './Counting';
 import Role from './Role';
 import Template from '../common/Template';
-
+import { Helmet } from 'react-helmet';
 function Index() {
   return (
     <div>
+      <Helmet>
+        <title>Career - Explore Career In Software Development - Softgetix</title>
+      </Helmet>
       <Template>
         <Banner />
         <Role />

@@ -22,11 +22,16 @@ import cisco from '../../company_logos/Cisco-Investments.webp'
 import johnson from '../../company_logos/johnson-innovation.webp'
 import intel from '../../company_logos/Intel-Capital.webp'
 import './about.css'
+import { Helmet } from 'react-helmet';
 
 
 function About() {
   return (
     <div>
+      <Helmet>
+        <title>About - Software Design and Development Company - Softgetix
+</title>
+      </Helmet>
       <Template>
         <section id="about_us">
           <div className="container">

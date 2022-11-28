@@ -5,10 +5,16 @@ import ContactTest from '../home/ContactTest';
 
 import enterpriseServices from '../../images/EnterpriseServices.jpg';
 import './css/dedicated-team.css';
+import { Helmet } from 'react-helmet';
 
 function DedicatedTeam() {
   return (
     <>
+    <Helmet>
+        <title>
+        DedicatedTeam
+        </title>
+    </Helmet>
       <Template>
         <section id="staff_banner" className="custom_software_development_section1">
             <div className="container">
