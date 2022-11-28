@@ -1,6 +1,6 @@
 import Template from '../common/Template';
 import React, { useState } from 'react'
-
+import { Helmet } from 'react-helmet';
 function NewContact() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -50,6 +50,11 @@ function NewContact() {
 
   return ( 
     <>
+    <Helmet>
+      <title>
+      Contact - Get In Touch For Our All Services - Softgetix
+      </title>
+    </Helmet>
     <Template>
       
       <section className="contact_us" id="conthub">
