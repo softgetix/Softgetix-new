@@ -63,7 +63,7 @@ function Nav() {
                       <NavLink
                         activeclassname="active"
                         className="nav-link"
-                        to="/staffing"
+                        to="/it-staff-augmentation-services"
                       >
                         STAFFING
                       </NavLink>

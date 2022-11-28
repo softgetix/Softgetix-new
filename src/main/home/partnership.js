@@ -47,7 +47,7 @@ function Partnership() {
                                  <h3 className="mt-3">IT Staff Augmentation</h3>
                                  <p className="mt-3 model-paragraph">Our IT staffing services provide the technical acumen and cost-effective way to scale your internal development teams quickly on an on-demand basis (team up and down with ease) and complete projects on time.</p>
                                  <div className="index-model-buttons">
-                                    <Link to="/staffing" className="btn free_Quote_btn btn-sm" ><b>Staff My Team</b></Link>
+                                    <Link to="/it-staff-augmentation-services" className="btn free_Quote_btn btn-sm" ><b>Staff My Team</b></Link>
                                  </div>
                               </div>
                            </div>      

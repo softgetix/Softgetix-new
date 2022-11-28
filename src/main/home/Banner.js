@@ -30,7 +30,7 @@ function Banner() {
                      </div>
                      <div className="banner_buttons mt-5">
                         <Link to="/get-free-quote" className="btn btn-banner_btn1 btn-lg " ><b>Build a Product</b></Link>
-                        <Link to="/staffing" className="btn btn-banner_btn2 btn-lg "><b>Staff My Team</b></Link>
+                        <Link to="/it-staff-augmentation-services" className="btn btn-banner_btn2 btn-lg "><b>Staff My Team</b></Link>
                         
                      </div>
                      <div className="mt-4 banner_sm_title">
