@@ -11,7 +11,7 @@ const AboutUs = React.lazy(() => import('./main/about/About'));
 // const Contact = React.lazy(() => import('./main/contact/Contact'));
 const Services = React.lazy(() => import('./main/services/Services'));
 const GetFreeQuote = React.lazy(() => import('./main/common_components/GetFreeQuote'));
-const Staffing = React.lazy(() => import('./main/it-staff-augmentation-services/it-staff-augmentation-services'));
+const Staffing = React.lazy(() => import('./main/staffing/staffing'));
 const ConfidentialityPolicy = React.lazy(() => import('./main/ConfidentialityPolicy'));
 
 const RefundPolicy = React.lazy(() => import('./main/RefundPolicy'));

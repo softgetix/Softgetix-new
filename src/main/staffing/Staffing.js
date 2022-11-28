@@ -37,7 +37,7 @@ import mysql from '../../icons/mysql.png'
 import mongoDB from '../../icons/mongoDB.png'
 import postgreSql from '../../icons/postgreSQL.png'
 import graphicDesigner from '../../icons/graphicDesigner.png'
-import './it-staff-augmentation-services.css';
+import './staffing.css';
 import  Helmet  from 'react-helmet';
 function Staffing() {
 
