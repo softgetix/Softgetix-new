@@ -3,7 +3,6 @@ import Banner from "./Banner";
 import About from "./about";
 import Partnership from "./partnership";
 import Plans from "./Plan";
-import ContactUs from "./Contact";
 import ContactUsTest from "./ContactTest";
 import Template from "../common/Template";
 import CaseStudy from "./CaseStudy";
@@ -38,7 +37,7 @@ function Index(props) {
       name="description"
       content="SoftGetix helps companies worldwide improve the speed and quality of their product development with the help of our tailored IT staff augmentation services."/>
     <meta name="keywords" content=""></meta>
-
+     
         </Helmet>
       <Template>
       
