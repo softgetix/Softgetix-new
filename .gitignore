@@ -103,6 +103,6 @@ dist
 # TernJS port file
 .tern-port
 build/.htaccess
-sitemap.xml
-robots.txt
+build/sitemap.xml
+build/robots.txt
  
