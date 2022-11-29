@@ -7,7 +7,7 @@ import ContactUsTest from "./ContactTest";
 import Template from "../common/Template";
 import CaseStudy from "./CaseStudy";
 import Testimonials from "./Testimonials";
-import { Helmet } from "react-helmet";
+import { HelmetProvider,Helmet } from "react-helmet-async";
 
 function Index(props) {
   const ContactSection = React.useRef("");
@@ -31,7 +31,8 @@ function Index(props) {
 
   return (
     <>
-    <Helmet>
+    <HelmetProvider>
+    <Helmet prioritizeSeoTags>
         <title>Digital Product Engineering & IT Staff Augmentation Company | SoftGetix</title>
         <meta
       name="description"
@@ -40,6 +41,7 @@ function Index(props) {
     <link rel="canonical" href={window.location.href} />
 
         </Helmet>
+        </HelmetProvider>
       <Template>
       
         <Banner />

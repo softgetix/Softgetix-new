@@ -5,7 +5,6 @@ import logo from "../../logo/softgetix_logo_new.png";
 
 
 
-
 function Nav() {
    const [servicClass , setServiceClass] = useState(false);
 

@@ -91,8 +91,11 @@ const ContactTest = React.lazy(() => import("./main/contact/NewContact"));
 // import FenceForceCaseStudy from "./main/CaseStudy/FenceForceCaseStudy";
 // import EasyHireCaseStudy from "./main/CaseStudy/EasyHireCaseStudy";
 // import PricingPlan from "./main/PricingPlan";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import "./style.css";
 import "./custom.css";
+
 
 import "./BackToTopButton.js";
 
@@ -104,7 +107,18 @@ function App() {
           name="google-site-verification"
           content="4u5qJogshQWVHHZM5gWU7j6S5R6kydqQnAyoov9Ga50"
         />
+      
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"
+    />
       </Helmet>
+   
       <BrowserRouter>
         <Suspense fallback={<Loader />}>
           <ScrollToTop />

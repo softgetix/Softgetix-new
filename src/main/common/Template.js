@@ -6,6 +6,7 @@ function Template(props) {
   return (
     <React.Fragment>
       <Nav />
+      
       <div className="main-content">
         {props.children}
         </div>

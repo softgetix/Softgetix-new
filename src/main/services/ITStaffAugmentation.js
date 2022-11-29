@@ -10,6 +10,10 @@ function ITStaffAugmentation() {
   return (
     <>
     <Helmet>
+    <title>IT Staff Augmentation
+Company - SoftGetix</title>
+    <meta name="description" content="Leading provider of IT staff augmentation. Scale your current staff by using our IT augmentation services to fill in any skill shortages."></meta>
+    <meta name="keyword" content="IT staff augmentation,IT staff augmentation services,IT staff augmentation company"></meta>
     <link rel="canonical" href={window.location.href} />
     </Helmet>
       <Template>
