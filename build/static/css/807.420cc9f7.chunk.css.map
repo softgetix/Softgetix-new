@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/807.420cc9f7.chunk.css","mappings":"AAAA,yCACI,qBACI,kBACJ,CACJ","sources":["main/about/about.css"],"sourcesContent":["@media only screen and (max-width:767px){\r\n    .staff_row_details p {\r\n        text-align: justify;\r\n    }\r\n}"],"names":[],"sourceRoot":""}
