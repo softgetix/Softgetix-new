@@ -37,7 +37,8 @@ function Index(props) {
       name="description"
       content="SoftGetix helps companies worldwide improve the speed and quality of their product development with the help of our tailored IT staff augmentation services."/>
     <meta name="keywords" content=""></meta>
-     
+    <link rel="canonical" href={window.location.href} />
+
         </Helmet>
       <Template>
       

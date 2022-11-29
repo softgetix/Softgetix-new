@@ -4,10 +4,14 @@ import ContactTest from '../home/ContactTest';
 import CaseStudy from '../home/CaseStudy';
 import {Link} from "react-router-dom";
 import './css/Itstaff.css';
+import { Helmet } from 'react-helmet';
 
 function ITStaffAugmentation() {
   return (
     <>
+    <Helmet>
+    <link rel="canonical" href={window.location.href} />
+    </Helmet>
       <Template>
       <section id="staff_banner" className="custom_software_development_section1">
             <div className="container">

@@ -31,6 +31,7 @@ function About() {
       <Helmet>
         <title>About - Software Design and Development Company - Softgetix
 </title>
+<link rel="canonical" href={window.location.href} />
       </Helmet>
       <Template>
         <section id="about_us">

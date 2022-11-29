@@ -2,10 +2,14 @@ import React from 'react'
 import Template from './common/Template';
 import FreeQuote from './common_components/FreeQuote';
 import {Link} from 'react-router-dom'
+import { Helmet } from 'react-helmet';
 
 function CaseStudies() {
   return (
     <>
+    <Helmet>
+    <link rel="canonical" href={window.location.href} />
+    </Helmet>
     <Template>
         <section className="services">
             <div className="container">

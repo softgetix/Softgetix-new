@@ -5,11 +5,15 @@ import ContactTest from "../home/ContactTest";
 import salesdaas from '../../images/salesdaas-io.webp'
 import calendar from '../../icons/calendar.webp'
 import people from '../../icons/people.webp'
+import { Helmet } from "react-helmet";
 
 
 function SalesDaasCaseStudy() {
   return (
     <>
+    <Helmet>
+    <link rel="canonical" href={window.location.href} />
+    </Helmet>
       <Template>
         <section id="staff_banner" className="case-study-single-page">
             <div className="container">

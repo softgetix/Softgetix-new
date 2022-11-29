@@ -6,10 +6,14 @@ import fence from '../../images/fence.webp'
 import calendar from '../../icons/calendar.webp'
 import people from '../../icons/people.webp'
 import productbought from '../../icons/productbought.webp'
+import { Helmet } from "react-helmet";
 
 function FenceForceCaseStudy() {
   return (
     <>
+    <Helmet>
+    <link rel="canonical" href={window.location.href} />
+    </Helmet>
     <Template>
       <section id="staff_banner" className="case-study-single-page">
           <div className="container">

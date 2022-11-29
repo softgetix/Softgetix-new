@@ -60,6 +60,7 @@ function Staffing() {
     <title>IT Staff Augmentation Services Firm | Top IT Staff Augmentation</title>
     <meta name="description" content="SoftGetix is a leading IT Staff Augmentation company. Use our IT augmentation services to scale your existing team and fill necessary skill gaps."></meta>
     <meta name="keyword" content=''></meta>
+    <link rel="canonical" href={window.location.href} />
     </Helmet>
     <Template>
         <section id="staff_banner">

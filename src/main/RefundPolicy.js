@@ -1,9 +1,13 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Template from './common/Template';
 
 function RefundPolicy() {
   return (
     <>
+    <Helmet>
+    <link rel="canonical" href={window.location.href} />
+    </Helmet>
     <Template>
     <section className="services">
             <div className="container">
