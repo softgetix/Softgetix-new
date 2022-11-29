@@ -104,7 +104,7 @@ function Nav() {
                         className="dropdown-menu"
                         aria-labelledby="navbarDropdown"
                       >
-                        {/* <NavLink activeclassname="active" className="dropdown-item" to="/custom_software_development">Custom Software Development</NavLink> */}
+                        {/* <NavLink activeclassname="active" className="dropdown-item" to="/custom-software-development">Custom Software Development</NavLink> */}
                         <NavLink
                           activeclassname="active"
                           className="dropdown-item"
