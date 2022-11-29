@@ -54,6 +54,7 @@ function NewContact() {
       <title>
       Contact - Get In Touch For Our All Services - Softgetix
       </title>
+      <link rel="canonical" href={window.location.href} />
     </Helmet>
     <Template>
       

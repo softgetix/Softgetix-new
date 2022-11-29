@@ -1,10 +1,14 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import Template from '../common/Template'
 import FreeQuote from '../common_components/FreeQuote'
 
 function Services() {
   return (
-    <div>
+    <>
+    <Helmet>
+    <link rel="canonical" href={window.location.href} />
+    </Helmet>
       <Template>
             <section className="services">
                     <div className="container">
@@ -23,7 +27,7 @@ function Services() {
             <FreeQuote />
             
       </Template>
-    </div>
+    </>
   )
 }
 

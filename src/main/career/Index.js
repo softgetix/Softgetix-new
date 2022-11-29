@@ -9,6 +9,7 @@ function Index() {
     <div>
       <Helmet>
         <title>Career - Explore Career In Software Development - Softgetix</title>
+        <link rel="canonical" href={window.location.href} />
       </Helmet>
       <Template>
         <Banner />

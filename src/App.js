@@ -97,14 +97,6 @@ import "./custom.css";
 import "./BackToTopButton.js";
 
 function App() {
-  const url = window.location.href;
-  const [canonical, setCanonical] = useState(window.location.href);
-
-  useEffect(() => {
-    // Update the document title using the browser API
-    setCanonical(window.location.href);
-  }, [url]);
-
   return (
     <div className="App">
       <Helmet>
@@ -112,7 +104,6 @@ function App() {
           name="google-site-verification"
           content="4u5qJogshQWVHHZM5gWU7j6S5R6kydqQnAyoov9Ga50"
         />
-        <link rel="canonical" href={canonical} />
       </Helmet>
       <BrowserRouter>
         <Suspense fallback={<Loader />}>

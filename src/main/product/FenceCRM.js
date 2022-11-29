@@ -2,10 +2,14 @@ import React from 'react';
 import Template from '../common/Template';
 import {Link} from 'react-router-dom'
 import ContactTest from '../home/ContactTest';
+import { Helmet } from 'react-helmet';
 
 function FenceCRM() {
   return (
     <>
+    <Helmet>
+    <link rel="canonical" href={window.location.href} />
+    </Helmet>
       <Template>
         <section id="fenceCRM">
             <div id="product-page">

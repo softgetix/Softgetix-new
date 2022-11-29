@@ -3,10 +3,14 @@ import Template from '../common/Template';
 import ContactTest from '../home/ContactTest';
 import {Link} from 'react-router-dom'
 import CaseStudy from '../home/CaseStudy';
+import { Helmet } from 'react-helmet';
 
 function BackendDevelopmentService() { 
   return (
     <>
+    <Helmet>
+    <link rel="canonical" href={window.location.href} />
+    </Helmet>
     <Template>
         <section id="staff_banner" className="custom_software_development_section1">
             <div className="container">
