@@ -594,7 +594,7 @@ function Staffing() {
                                     </div> */}
                                     <div className="features_title">
                                     <h3>Access to Vetted and Certified Talent</h3>
-                                    <p className="mt-3">Devox Software offers you immediate access to a vast talent pool at affordable costs. Amplify your team with certified software specialists.</p>
+                                    <p className="mt-3">SoftGetix offers you immediate access to a vast talent pool at affordable costs. Amplify your team with certified software specialists.</p>
                                     </div>
                             </div>      
                         </div>
