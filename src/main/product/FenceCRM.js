@@ -3,6 +3,7 @@ import Template from '../common/Template';
 import {Link} from 'react-router-dom'
 import ContactTest from '../home/ContactTest';
 import { Helmet } from 'react-helmet';
+import Faq from '../common/Faq';
 
 function FenceCRM() {
   return (
@@ -193,96 +194,8 @@ function FenceCRM() {
                         </div>
                     </div>
                 </div>
-                <main className="faq-content">
-                    <div id="accordion" className="myaccordion faq-card">
-                        <div className="faq-ilustrations">
-                        <img className="mobile pattern" 
-                            src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/bg-pattern-mobile.svg" alt="">
-                        </img>
-                        <img className="mobile ilust" 
-                            src="https://raw.githubusercontent.com/Romerof/FAQ-accordion-card/main/images/illustration-woman-online-mobile.svg" alt="">
-                        </img>
-                        </div>
-                        <h1 className="text-center">FAQ</h1>
-
-                        <div className="card">
-                            <div className="card-header" id="headingOne">
-                            <h2 className="mb-0">
-                                <button className="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                How many team members can I invite?
-                                
-                                </button>
-                            </h2>
-                            </div>
-                            <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                            <div className="card-body">
-                                <p>You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="card">
-                            <div className="card-header" id="headingTwo">
-                            <h2 className="mb-0">
-                                <button className="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                What is the maximum file upload size?
-                               
-                                </button>
-                            </h2>
-                            </div>
-                            <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                            <div className="card-body">
-                                <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="card">
-                            <div className="card-header" id="headingThree">
-                            <h2 className="mb-0">
-                                <button className="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                How do I reset my password?
-                                
-                                </button>
-                            </h2>
-                            </div>
-                            <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                            <div className="card-body">
-                                <p>Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="card">
-                            <div className="card-header" id="headingFour">
-                            <h2 className="mb-0">
-                                <button className="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                Can I cancel my subscription?
-                                
-                                </button>
-                            </h2>
-                            </div>
-                            <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                            <div className="card-body">
-                                <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="card">
-                            <div className="card-header" id="headingFive">
-                            <h2 className="mb-0">
-                                <button className="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                Do you provide additional support?
-                                
-                                </button>
-                            </h2>
-                            </div>
-                            <div id="collapseFive" className="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-                            <div className="card-body">
-                                <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                </main>
-                
+              
+                <Faq></Faq>
                 <br/><br/><br/>
             </div>
         </section>

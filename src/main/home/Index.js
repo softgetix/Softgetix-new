@@ -29,6 +29,8 @@ function Index(props) {
     });
   }, []);
 
+  
+
   return (
     <>
     <HelmetProvider>
@@ -50,6 +52,7 @@ function Index(props) {
         <CaseStudy />
         <Testimonials />
         <Plans />
+        
         <section className="contact_us" id="conthub" ref={ContactSection}>
           {renderContact && <ContactUsTest />}
         </section>

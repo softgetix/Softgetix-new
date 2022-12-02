@@ -2200,8 +2200,7 @@ h1.opportunities-counting-title {
 
 /*________*/
 #fenceCRM .myaccordion {
-  max-width: 500px;
-  margin: 50px auto;
+  margin: 0px auto;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
 }
 

@@ -39,6 +39,8 @@ import postgreSql from '../../icons/postgreSQL.png'
 import graphicDesigner from '../../icons/graphicDesigner.png'
 import './staffing.css';
 import  Helmet  from 'react-helmet';
+import Faq from "../common/Faq";
+
 function Staffing() {
 
     const resourceSection = React.useRef();
@@ -53,6 +55,28 @@ function Staffing() {
         behavior: "smooth"
         });
     }
+    const Faqs = [
+        {
+          que : 'How many team members can I invite?',
+          ans : 'You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.'
+        },
+        {
+          que : 'What is the maximum file upload size?',
+          ans : 'No more than 2GB. All files in your account must fit your allotted storage space.'
+        },
+        {
+          que : 'How do I reset my password?',
+          ans : 'Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.'
+        },
+        {
+          que : 'Can I cancel my subscription?',
+          ans : 'Yes! Send us a message and we’ll process your request no questions asked.'
+        },
+        {
+          que : 'Do you provide additional support?',
+          ans : 'Chat and email support is available 24/7. Phone lines are open during normal business hours.'
+        }
+      ];
 
   return (
     <>
@@ -694,9 +718,11 @@ function Staffing() {
         </section> */}
 
         <PricingPlan />
+        <Faq faqs={Faqs} />
         <section className="contact_us" id="conthub" ref={ContactSection}>
             <ContactTest />
         </section>
+      
     </Template>
     </>
   )
