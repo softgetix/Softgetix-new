@@ -35,7 +35,7 @@ function Index(props) {
     <>
     <HelmetProvider>
     <Helmet prioritizeSeoTags>
-        <title>Digital Product Engineering & IT Staff Augmentation Company | SoftGetix</title>
+        <title>Digital Product Engineering & IT Staff Augmentation Company</title>
         <meta
       name="description"
       content="SoftGetix helps companies worldwide improve the speed and quality of their product development with the help of our tailored IT staff augmentation services."/>
