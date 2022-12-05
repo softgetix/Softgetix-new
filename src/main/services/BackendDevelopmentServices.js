@@ -9,6 +9,7 @@ function BackendDevelopmentService() {
   return (
     <>
     <Helmet>
+        <title>Back End Development Services - Softgetix</title>
     <link rel="canonical" href={window.location.href} />
     </Helmet>
     <Template>

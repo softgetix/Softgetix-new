@@ -29,13 +29,11 @@ function Index(props) {
     });
   }, []);
 
-  
-
   return (
     <>
     <HelmetProvider>
     <Helmet prioritizeSeoTags>
-        {/* <title>Digital Product Engineering & IT Staff Augmentation Company</title> */}
+        <title>Digital Product Engineering & IT Staff Augmentation Company | SoftGetix</title>
         <meta
       name="description"
       content="SoftGetix helps companies worldwide improve the speed and quality of their product development with the help of our tailored IT staff augmentation services."/>
@@ -52,7 +50,6 @@ function Index(props) {
         <CaseStudy />
         <Testimonials />
         <Plans />
-        
         <section className="contact_us" id="conthub" ref={ContactSection}>
           {renderContact && <ContactUsTest />}
         </section>

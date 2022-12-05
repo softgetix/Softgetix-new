@@ -23,7 +23,7 @@ const Faq = (props) => {
                 alt=""
               ></img>
             </div> */}
-            <h2 className="font-weight-bold text-center staff-heading">FAQ</h2>
+            <h2 className="font-weight-bold text-center staff-heading"></h2>
             {props.faqs.map((faq) => (
               <Accordion
               que={faq.que}

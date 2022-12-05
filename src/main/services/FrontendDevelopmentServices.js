@@ -9,7 +9,10 @@ function FrontendDevelopmentService() {
   return (
     <>
     <Helmet>
+    <title>Front End Development Services - Softgetix
+</title>
     <link rel="canonical" href={window.location.href} />
+
     </Helmet>
     <Template>
         <section id="staff_banner" className="custom_software_development_section1">

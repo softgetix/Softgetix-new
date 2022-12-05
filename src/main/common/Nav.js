@@ -67,7 +67,7 @@ function Nav() {
                         STAFFING
                       </NavLink>
                     </li>
-                    <li className="nav-item dropdown">
+                    {/* <li className="nav-item dropdown">
                            <Link className="nav-link dropdown-toggle">PRODUCTS <i className="fa fa-angle-down"></i>
                            </Link>
                            <ul className="dropdown-menu ">
@@ -75,7 +75,7 @@ function Nav() {
                               <div className="dropdown-divider"></div>
                               <Link className="dropdown-item" to="/fence-crm">Browse all Products</Link>
                            </ul>
-                        </li>
+                        </li> */}
                     {/* <li className="nav-item dropdown">
                            <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                            PRODUCTS <i className="fa fa-angle-down"></i>

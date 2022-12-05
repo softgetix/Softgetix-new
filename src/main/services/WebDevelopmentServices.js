@@ -10,6 +10,8 @@ function WebDevelopmentService() {
   return (
     <>
     <Helmet>
+        <title>Web Development Services - Softgetix
+</title>
     <link rel="canonical" href={window.location.href} />
     </Helmet>
     <Template>

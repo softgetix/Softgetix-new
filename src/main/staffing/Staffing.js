@@ -57,25 +57,29 @@ function Staffing() {
     }
     const Faqs = [
         {
-          que : 'How many team members can I invite?',
-          ans : 'You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.'
+          que : 'What is IT staff augmentation?',
+          ans : 'IT staff augmentation is a type of outsourcing model where the company provides highly skilled IT employees. On a contract basis, they can work from the office or remotely. '
         },
         {
-          que : 'What is the maximum file upload size?',
-          ans : 'No more than 2GB. All files in your account must fit your allotted storage space.'
+          que : 'What is IT Staff Augmentation, Why you need it?  ',
+          ans : 'There is a growing demand for qualified software developers and other IT experts. This was mostly due to the global epidemic, and as a result, more and more companies are using the internet.'
         },
         {
-          que : 'How do I reset my password?',
-          ans : 'Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.'
+          que : 'What is Staff Augmentation? Which company provides the best IT staff augmentation services in the USA?',
+          ans : 'Finding a contractor who takes the time to understand their clients unique staffing needs should be the very first goal whenever a corporation decides to onboard any augmented workers or create a remote solid engineering team.'
         },
         {
-          que : 'Can I cancel my subscription?',
-          ans : 'Yes! Send us a message and we’ll process your request no questions asked.'
+          que : 'What is staff augmentation service?',
+          ans : 'The terms "outsourcing" and "IT staff augmentation" sometimes cause us confusion. But first, allow me to briefly describe staff augmentation services and how you might use them for your team.'
         },
         {
-          que : 'Do you provide additional support?',
-          ans : 'Chat and email support is available 24/7. Phone lines are open during normal business hours.'
-        }
+          que : 'Which is the best IT staff augmentation company in US?',
+          ans : 'Attending industry events, connecting with other IT professionals, and getting in touch with businesses that might require your kind of services are good places to start'
+        },
+        {
+            que : 'What does staff augmentation mean for businesses?',
+            ans : 'Some business professionals think that because the phrase "artificial intelligence" is so closely associated with popular culture, people have unrealistic concerns about it and inaccurate expectations about how it will affect their daily lives.'
+          }
       ];
 
   return (
