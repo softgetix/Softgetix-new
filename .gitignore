@@ -105,4 +105,7 @@ dist
 build/.htaccess
 build/sitemap.xml
 build/robots.txt
+build/ror.xml
+build/urllist.txt
+build/sitemap.html
  
