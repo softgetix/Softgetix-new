@@ -61,7 +61,7 @@ const EasyHireCaseStudy = React.lazy(() =>
   import("./main/CaseStudy/EasyHireCaseStudy")
 );
 const PricingPlan = React.lazy(() => import("./main/PricingPlan"));
-const ContactTest = React.lazy(() => import("./main/contact/NewContact"));
+const ContactTest = React.lazy(() => import("./main/contact/Contact"));
 
 // import Career from './main/career/Index';
 // import JobDetails from './main/career/JobDetails';
