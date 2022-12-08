@@ -129,10 +129,11 @@ function JobDetails() {
             <div className="col-lg-12 mt-3 mb-3">
               <h2><b>Expertise in { users.expertise }</b></h2>
               <div>
-                <ul className="job-ul">
+               <div dangerouslySetInnerHTML={{ __html: users.description }} />
+                {/* <ul className="job-ul"> */}
                   {/* <li className="pt-3">{ users.description }</li> */}
-                  <div dangerouslySetInnerHTML={{ __html: users.description }} />
-                </ul>
+                  
+                {/* </ul> */}
 
                 {/* <ul className="job-ul">
                   <li className="pt-3">Expertise in WordPress Custom Theme Development and Plugin Development</li>

@@ -49,7 +49,7 @@ function Role() {
                         <div className="opportunities1_body" onMouseOver={({target})=>target.style.backgroundColor=`${job.border_color}`}
                           onMouseOut={({target})=>target.style.backgroundColor=''} >
                           <h3 className="text-center">ROLE</h3>
-                          <h2 className="text-center pt-3 pb-3" >{job.job_name}</h2>
+                          <h2 className="text-center pt-3 pb-3 h2-font" >{job.job_name}</h2>
                           <h5 className="text-center">Desired Experience {job.experience}</h5>
                       </div>
                     </div>

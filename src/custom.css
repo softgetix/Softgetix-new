@@ -337,3 +337,9 @@ color: #584efd;
   #pricing_plan .pricing{margin-top: 0px;}
 }
 /* pricing plan css end */
+.dynamic_para{
+  margin: 10px 0px 0px 25px;
+}
+.h2-font{
+  font-size: 38px !important;
+}
