@@ -343,3 +343,7 @@ color: #584efd;
 .h2-font{
   font-size: 38px !important;
 }
+
+.link-hover:hover {
+  background-color: var(--background-color);
+}
